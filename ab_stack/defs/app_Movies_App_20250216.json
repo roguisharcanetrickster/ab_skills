@@ -1,0 +1,1336 @@
+{
+  "abVersion": "0.0.0",
+  "filename": "app_Movies_App_20250216",
+  "date": "20250216",
+  "definitions": [
+    {
+      "id": "874c974f-63c9-4ecb-9b4f-0b92a49568cc",
+      "name": "Movies App",
+      "type": "application",
+      "json": {
+        "id": "874c974f-63c9-4ecb-9b4f-0b92a49568cc",
+        "type": "application",
+        "appType": "web",
+        "name": "Movies App",
+        "icon": "fa-child",
+        "isSystemObject": 0,
+        "json": {
+          "translations": [
+            {
+              "language_code": "en",
+              "label": "Movies App",
+              "description": "This is an example"
+            }
+          ],
+          "name": "Movies App",
+          "versionData": {
+            "versionNumber": "2.0.0",
+            "changeLog": {
+              "1.0.0": {
+                "author": "N/A",
+                "version": "1.0.0",
+                "keepVersion": 0,
+                "commitMessage": "Initial Version",
+                "timestamp": "2025-02-16T03:58:26.947Z",
+                "versionNumber": "1.0.0"
+              },
+              "2.0.0": {
+                "author": "RAT",
+                "commitMessage": "Add Movies",
+                "version": "2.0.0",
+                "timestamp": "2025-02-16T04:01:33.375Z",
+                "keepVersion": 0,
+                "versionNumber": "2.0.0"
+              }
+            }
+          },
+          "objectIDs": [
+            "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+            "961f99f2-5f18-4718-bbd1-f9d732818069",
+            "0cd8cce4-c991-4430-8ca3-ed4e716bb841"
+          ],
+          "objectListSettings": {
+            "isOpen": false,
+            "searchText": "",
+            "sortDirection": "asc",
+            "isGroup": false
+          },
+          "hintIDs": [],
+          "queryIDs": [],
+          "datacollectionIDs": [
+            "70ae6800-4189-46be-a66f-45c368db17f3"
+          ],
+          "pageIDs": [
+            "dff7a1a7-71ca-4ebe-aed4-8423c83a3755"
+          ],
+          "processIDs": []
+        },
+        "roleAccess": [
+          "6cc04894-a61b-4fb5-b3e5-b8c3f78bd331",
+          "dd6c2d34-0982-48b7-bc44-2456474edbea",
+          "e1be4d22-1d00-4c34-b205-ef84b8334b19",
+          "ee52974b-5276-427f-ad4c-f29af6b5caaf"
+        ],
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Movies App",
+            "description": "This is an example"
+          }
+        ],
+        "isAccessManaged": false,
+        "isTranslationManaged": false,
+        "isTutorialManaged": false,
+        "accessManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        },
+        "translationManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        },
+        "tutorialManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        }
+      },
+      "createdAt": "2025-02-16T03:58:27.000Z",
+      "updatedAt": "2025-02-16T04:11:15.000Z"
+    },
+    {
+      "id": "961f99f2-5f18-4718-bbd1-f9d732818069",
+      "name": "Actors",
+      "type": "object",
+      "json": {
+        "id": "961f99f2-5f18-4718-bbd1-f9d732818069",
+        "type": "object",
+        "name": "Actors",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_MoviesApp_Actors",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Actors"
+          }
+        ],
+        "fieldIDs": [
+          "7f1b761b-b39b-4c7e-bc71-5802ea808ad6",
+          "8dedbddc-af3d-4cec-81be-e76050e73fa6"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "874c974f-63c9-4ecb-9b4f-0b92a49568cc"
+      },
+      "createdAt": "2025-02-16T04:09:59.000Z",
+      "updatedAt": "2025-02-16T04:10:35.000Z"
+    },
+    {
+      "id": "7f1b761b-b39b-4c7e-bc71-5802ea808ad6",
+      "name": "Actors->Name",
+      "type": "field",
+      "json": {
+        "id": "7f1b761b-b39b-4c7e-bc71-5802ea808ad6",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Name",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Name"
+          }
+        ]
+      },
+      "createdAt": "2025-02-16T04:10:11.000Z",
+      "updatedAt": "2025-02-16T04:10:11.000Z"
+    },
+    {
+      "id": "8dedbddc-af3d-4cec-81be-e76050e73fa6",
+      "name": "Actors->Films",
+      "type": "field",
+      "json": {
+        "id": "8dedbddc-af3d-4cec-81be-e76050e73fa6",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Films",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "linkObject": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+          "linkType": "many",
+          "linkViaType": "many",
+          "linkColumn": "9fc5d3da-b7a7-4af1-b325-c307aa281e79",
+          "isSource": 1,
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Films"
+          }
+        ]
+      },
+      "createdAt": "2025-02-16T04:10:35.000Z",
+      "updatedAt": "2025-02-16T04:10:35.000Z"
+    },
+    {
+      "id": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+      "name": "Movies",
+      "type": "object",
+      "json": {
+        "id": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+        "type": "object",
+        "name": "Movies",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_ExampleApp_Movies",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Movies"
+          }
+        ],
+        "fieldIDs": [
+          "82e39e21-2e3d-4824-a11a-459ab7561bae",
+          "846b1e9a-0f1f-4907-a4f2-cbd7b3277b00",
+          "9fc5d3da-b7a7-4af1-b325-c307aa281e79",
+          "a0b85264-a9f1-43c4-b841-44e94f5cf19b"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "874c974f-63c9-4ecb-9b4f-0b92a49568cc"
+      },
+      "createdAt": "2025-02-16T03:58:55.000Z",
+      "updatedAt": "2025-02-16T04:11:40.000Z"
+    },
+    {
+      "id": "82e39e21-2e3d-4824-a11a-459ab7561bae",
+      "name": "Movies->Titles",
+      "type": "field",
+      "json": {
+        "id": "82e39e21-2e3d-4824-a11a-459ab7561bae",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Titles",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Titles"
+          }
+        ]
+      },
+      "createdAt": "2025-02-16T03:59:13.000Z",
+      "updatedAt": "2025-02-16T03:59:13.000Z"
+    },
+    {
+      "id": "846b1e9a-0f1f-4907-a4f2-cbd7b3277b00",
+      "name": "Movies->Date Released",
+      "type": "field",
+      "json": {
+        "id": "846b1e9a-0f1f-4907-a4f2-cbd7b3277b00",
+        "type": "field",
+        "key": "date",
+        "icon": "calendar",
+        "isImported": 0,
+        "columnName": "Date Released",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 1,
+          "defaultDateValue": null,
+          "validateCondition": "none",
+          "validateRangeUnit": "",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "width": 170,
+          "timeFormat": 2,
+          "defaultTime": 1,
+          "defaultTimeValue": null
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Date Released"
+          }
+        ]
+      },
+      "createdAt": "2025-02-16T03:59:30.000Z",
+      "updatedAt": "2025-02-16T03:59:30.000Z"
+    },
+    {
+      "id": "9fc5d3da-b7a7-4af1-b325-c307aa281e79",
+      "name": "Movies->Actors",
+      "type": "field",
+      "json": {
+        "id": "9fc5d3da-b7a7-4af1-b325-c307aa281e79",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Actors761",
+        "settings": {
+          "showIcon": 1,
+          "linkObject": "961f99f2-5f18-4718-bbd1-f9d732818069",
+          "linkType": "many",
+          "linkViaType": "many",
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "isSource": 0,
+          "width": 100,
+          "required": 0,
+          "unique": 0,
+          "linkColumn": "8dedbddc-af3d-4cec-81be-e76050e73fa6"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Actors"
+          }
+        ]
+      },
+      "createdAt": "2025-02-16T04:10:35.000Z",
+      "updatedAt": "2025-02-16T04:10:35.000Z"
+    },
+    {
+      "id": "a0b85264-a9f1-43c4-b841-44e94f5cf19b",
+      "name": "Movies->Directors",
+      "type": "field",
+      "json": {
+        "id": "a0b85264-a9f1-43c4-b841-44e94f5cf19b",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Films",
+        "settings": {
+          "showIcon": 1,
+          "linkObject": "0cd8cce4-c991-4430-8ca3-ed4e716bb841",
+          "linkType": "one",
+          "linkViaType": "many",
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "isSource": 0,
+          "width": 100,
+          "required": 0,
+          "unique": 0,
+          "linkColumn": "9fa156a5-f0bc-40b4-a3c5-5a6835c0670a"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Directors"
+          }
+        ]
+      },
+      "createdAt": "2025-02-16T04:11:40.000Z",
+      "updatedAt": "2025-02-16T04:11:40.000Z"
+    },
+    {
+      "id": "0cd8cce4-c991-4430-8ca3-ed4e716bb841",
+      "name": "Directors",
+      "type": "object",
+      "json": {
+        "id": "0cd8cce4-c991-4430-8ca3-ed4e716bb841",
+        "type": "object",
+        "name": "Directors",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_MoviesApp_Directors",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Directors"
+          }
+        ],
+        "fieldIDs": [
+          "61a07081-c7e7-4b44-9a6c-a3a4d585fee2",
+          "9fa156a5-f0bc-40b4-a3c5-5a6835c0670a"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "874c974f-63c9-4ecb-9b4f-0b92a49568cc"
+      },
+      "createdAt": "2025-02-16T04:11:14.000Z",
+      "updatedAt": "2025-02-16T04:11:40.000Z"
+    },
+    {
+      "id": "61a07081-c7e7-4b44-9a6c-a3a4d585fee2",
+      "name": "Directors->Name",
+      "type": "field",
+      "json": {
+        "id": "61a07081-c7e7-4b44-9a6c-a3a4d585fee2",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Name",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Name"
+          }
+        ]
+      },
+      "createdAt": "2025-02-16T04:11:22.000Z",
+      "updatedAt": "2025-02-16T04:11:22.000Z"
+    },
+    {
+      "id": "9fa156a5-f0bc-40b4-a3c5-5a6835c0670a",
+      "name": "Directors->Films",
+      "type": "field",
+      "json": {
+        "id": "9fa156a5-f0bc-40b4-a3c5-5a6835c0670a",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Films",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "linkObject": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+          "linkType": "many",
+          "linkViaType": "one",
+          "linkColumn": "a0b85264-a9f1-43c4-b841-44e94f5cf19b",
+          "isSource": 1,
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Films"
+          }
+        ]
+      },
+      "createdAt": "2025-02-16T04:11:40.000Z",
+      "updatedAt": "2025-02-16T04:11:40.000Z"
+    },
+    {
+      "id": "70ae6800-4189-46be-a66f-45c368db17f3",
+      "name": "MoviesDC",
+      "type": "datacollection",
+      "json": {
+        "id": "70ae6800-4189-46be-a66f-45c368db17f3",
+        "name": "MoviesDC",
+        "type": "datacollection",
+        "settings": {
+          "linkDatacollectionID": "",
+          "linkFieldID": "",
+          "followDatacollectionID": "",
+          "objectWorkspace": {
+            "filterConditions": {
+              "glue": "and",
+              "rules": []
+            },
+            "sortFields": []
+          },
+          "fixSelect": "",
+          "loadAll": 1,
+          "isQuery": false,
+          "populate": true,
+          "syncType": 1,
+          "datasourceID": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "MoviesDC"
+          }
+        ]
+      },
+      "createdAt": "2025-02-16T04:00:26.000Z",
+      "updatedAt": "2025-02-16T04:00:30.000Z"
+    },
+    {
+      "id": "dff7a1a7-71ca-4ebe-aed4-8423c83a3755",
+      "name": "View Movies",
+      "type": "view",
+      "json": {
+        "id": "dff7a1a7-71ca-4ebe-aed4-8423c83a3755",
+        "type": "view",
+        "key": "page",
+        "icon": "file",
+        "name": "View Movies",
+        "settings": {
+          "height": 0,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "gravity": [
+            1
+          ]
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View Movies"
+          }
+        ],
+        "viewIDs": [
+          "dc089b6d-912d-42b3-b0af-95a3b9b8df9e",
+          "14b4bd3f-26ac-4681-a807-d29f70a88d39"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": true,
+        "myAppID": "874c974f-63c9-4ecb-9b4f-0b92a49568cc",
+        "pageIDs": [
+          "18d78fe9-2472-419b-a48f-df0e74c8a889",
+          "c9faaf3b-fb92-417f-bf1f-fed3f608897e",
+          "9635dead-9dcb-4dd8-9fb4-02aa1ec443c9"
+        ]
+      },
+      "createdAt": "2025-02-16T04:00:48.000Z",
+      "updatedAt": "2025-02-16T04:08:18.000Z"
+    },
+    {
+      "id": "18d78fe9-2472-419b-a48f-df0e74c8a889",
+      "name": "Add Movie",
+      "type": "view",
+      "json": {
+        "id": "18d78fe9-2472-419b-a48f-df0e74c8a889",
+        "type": "view",
+        "key": "page",
+        "icon": "clone",
+        "name": "Add Movie",
+        "settings": {
+          "height": 0,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "gravity": [],
+          "type": "popup",
+          "popupWidth": "700",
+          "popupHeight": "450",
+          "pageWidth": "",
+          "fixedPageWidth": 0,
+          "pageBackground": "ab-background-default"
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Movie"
+          }
+        ],
+        "viewIDs": [
+          "ecc46c38-2e43-4f33-8919-eec3e7a1639f"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": false,
+        "myAppID": "874c974f-63c9-4ecb-9b4f-0b92a49568cc",
+        "pageIDs": []
+      },
+      "createdAt": "2025-02-16T04:02:45.000Z",
+      "updatedAt": "2025-02-16T04:07:16.000Z"
+    },
+    {
+      "id": "ecc46c38-2e43-4f33-8919-eec3e7a1639f",
+      "name": "Add Movie.form",
+      "type": "view",
+      "json": {
+        "id": "ecc46c38-2e43-4f33-8919-eec3e7a1639f",
+        "type": "view",
+        "key": "form",
+        "icon": "list-alt",
+        "name": "Add Movie.form",
+        "settings": {
+          "height": 200,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "labelPosition": "left",
+          "showLabel": 1,
+          "clearOnLoad": 1,
+          "clearOnSave": 1,
+          "labelWidth": 120,
+          "dataviewID": "70ae6800-4189-46be-a66f-45c368db17f3",
+          "gravity": [],
+          "recordRules": [],
+          "submitRules": [
+            {
+              "selectedAction": "ABViewRuleActionFormSubmitRuleClosePopup",
+              "queryRules": {
+                "rules": [],
+                "glue": "and"
+              },
+              "actionSettings": {}
+            }
+          ]
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Movie.form"
+          }
+        ],
+        "viewIDs": [
+          "2ff7e6af-5ca3-4455-b4fc-f297b6c61eb2",
+          "a4edf0b7-c49a-44c3-9b3e-8ac370a98626",
+          "99e6df53-1aba-4198-bcba-0daaf2fea4fa"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:05:32.000Z",
+      "updatedAt": "2025-02-16T04:09:31.000Z"
+    },
+    {
+      "id": "2ff7e6af-5ca3-4455-b4fc-f297b6c61eb2",
+      "name": "Add Movie.form.datepicker",
+      "type": "view",
+      "json": {
+        "id": "2ff7e6af-5ca3-4455-b4fc-f297b6c61eb2",
+        "type": "view",
+        "key": "datepicker",
+        "icon": "calendar",
+        "settings": {
+          "objectId": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+          "fieldId": "846b1e9a-0f1f-4907-a4f2-cbd7b3277b00",
+          "height": 0
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Movie.form.datepicker"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 1
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:05:42.000Z",
+      "updatedAt": "2025-02-16T04:05:42.000Z"
+    },
+    {
+      "id": "a4edf0b7-c49a-44c3-9b3e-8ac370a98626",
+      "name": "Add Movie.form.textbox",
+      "type": "view",
+      "json": {
+        "id": "a4edf0b7-c49a-44c3-9b3e-8ac370a98626",
+        "type": "view",
+        "key": "textbox",
+        "icon": "i-cursor",
+        "settings": {
+          "type": "single",
+          "objectId": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+          "fieldId": "82e39e21-2e3d-4824-a11a-459ab7561bae",
+          "height": 0
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Movie.form.textbox"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:05:42.000Z",
+      "updatedAt": "2025-02-16T04:05:42.000Z"
+    },
+    {
+      "id": "99e6df53-1aba-4198-bcba-0daaf2fea4fa",
+      "name": "Add Movie.form.button",
+      "type": "view",
+      "json": {
+        "id": "99e6df53-1aba-4198-bcba-0daaf2fea4fa",
+        "type": "view",
+        "key": "button",
+        "icon": "square",
+        "settings": {
+          "height": 0,
+          "translations": [],
+          "includeSave": true,
+          "includeCancel": false,
+          "includeReset": false,
+          "includeDelete": false,
+          "isDefault": true
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Movie.form.button"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 2
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:05:42.000Z",
+      "updatedAt": "2025-02-16T04:05:42.000Z"
+    },
+    {
+      "id": "c9faaf3b-fb92-417f-bf1f-fed3f608897e",
+      "name": "Edit Movie",
+      "type": "view",
+      "json": {
+        "id": "c9faaf3b-fb92-417f-bf1f-fed3f608897e",
+        "type": "view",
+        "key": "page",
+        "icon": "clone",
+        "name": "Edit Movie",
+        "settings": {
+          "height": 0,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "gravity": [],
+          "type": "popup",
+          "popupWidth": "700",
+          "popupHeight": "450",
+          "pageWidth": "",
+          "fixedPageWidth": 0,
+          "pageBackground": "ab-background-default"
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Movie"
+          }
+        ],
+        "viewIDs": [
+          "61fc536b-0938-4be3-83a6-32c3fe57018a"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": false,
+        "myAppID": "874c974f-63c9-4ecb-9b4f-0b92a49568cc",
+        "pageIDs": []
+      },
+      "createdAt": "2025-02-16T04:05:23.000Z",
+      "updatedAt": "2025-02-16T04:07:13.000Z"
+    },
+    {
+      "id": "61fc536b-0938-4be3-83a6-32c3fe57018a",
+      "name": "Edit Movie.form",
+      "type": "view",
+      "json": {
+        "id": "61fc536b-0938-4be3-83a6-32c3fe57018a",
+        "type": "view",
+        "key": "form",
+        "icon": "list-alt",
+        "name": "Edit Movie.form",
+        "settings": {
+          "height": 200,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "labelPosition": "left",
+          "showLabel": 1,
+          "clearOnLoad": 0,
+          "clearOnSave": 0,
+          "labelWidth": 120,
+          "dataviewID": "70ae6800-4189-46be-a66f-45c368db17f3",
+          "gravity": [],
+          "recordRules": [],
+          "submitRules": [
+            {
+              "selectedAction": "ABViewRuleActionFormSubmitRuleClosePopup",
+              "queryRules": {
+                "rules": [],
+                "glue": "and"
+              },
+              "actionSettings": {}
+            }
+          ]
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Movie.form"
+          }
+        ],
+        "viewIDs": [
+          "aed8039b-e9a4-496f-adc0-536b3c5df6ab",
+          "1ab966e0-42c2-4bfa-b74d-a0a6a25b7262",
+          "94363036-b07d-45ce-952e-dd066f338c4b"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:06:11.000Z",
+      "updatedAt": "2025-02-16T04:06:28.000Z"
+    },
+    {
+      "id": "aed8039b-e9a4-496f-adc0-536b3c5df6ab",
+      "name": "Edit Movie.form.datepicker",
+      "type": "view",
+      "json": {
+        "id": "aed8039b-e9a4-496f-adc0-536b3c5df6ab",
+        "type": "view",
+        "key": "datepicker",
+        "icon": "calendar",
+        "settings": {
+          "objectId": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+          "fieldId": "846b1e9a-0f1f-4907-a4f2-cbd7b3277b00",
+          "height": 0
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Movie.form.datepicker"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 1
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:06:14.000Z",
+      "updatedAt": "2025-02-16T04:06:14.000Z"
+    },
+    {
+      "id": "1ab966e0-42c2-4bfa-b74d-a0a6a25b7262",
+      "name": "Edit Movie.form.textbox",
+      "type": "view",
+      "json": {
+        "id": "1ab966e0-42c2-4bfa-b74d-a0a6a25b7262",
+        "type": "view",
+        "key": "textbox",
+        "icon": "i-cursor",
+        "settings": {
+          "type": "single",
+          "objectId": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+          "fieldId": "82e39e21-2e3d-4824-a11a-459ab7561bae",
+          "height": 0
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Movie.form.textbox"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:06:14.000Z",
+      "updatedAt": "2025-02-16T04:06:14.000Z"
+    },
+    {
+      "id": "94363036-b07d-45ce-952e-dd066f338c4b",
+      "name": "Edit Movie.form.button",
+      "type": "view",
+      "json": {
+        "id": "94363036-b07d-45ce-952e-dd066f338c4b",
+        "type": "view",
+        "key": "button",
+        "icon": "square",
+        "settings": {
+          "height": 0,
+          "translations": [],
+          "includeSave": true,
+          "includeCancel": false,
+          "includeReset": false,
+          "includeDelete": false,
+          "isDefault": true
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Movie.form.button"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 2
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:06:14.000Z",
+      "updatedAt": "2025-02-16T04:06:14.000Z"
+    },
+    {
+      "id": "9635dead-9dcb-4dd8-9fb4-02aa1ec443c9",
+      "name": "View Movie",
+      "type": "view",
+      "json": {
+        "id": "9635dead-9dcb-4dd8-9fb4-02aa1ec443c9",
+        "type": "view",
+        "key": "page",
+        "icon": "clone",
+        "name": "View Movie",
+        "settings": {
+          "height": 0,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "gravity": [],
+          "type": "popup",
+          "popupWidth": "700",
+          "popupHeight": "450",
+          "pageWidth": "",
+          "fixedPageWidth": 0,
+          "pageBackground": "ab-background-default"
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View Movie"
+          }
+        ],
+        "viewIDs": [
+          "c96e2bc7-ca55-4bfc-8796-e5ba290511e3",
+          "3ae8056a-8393-41f6-b880-47d22c925cb4"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": false,
+        "myAppID": "874c974f-63c9-4ecb-9b4f-0b92a49568cc",
+        "pageIDs": []
+      },
+      "createdAt": "2025-02-16T04:06:47.000Z",
+      "updatedAt": "2025-02-16T04:08:12.000Z"
+    },
+    {
+      "id": "c96e2bc7-ca55-4bfc-8796-e5ba290511e3",
+      "name": "View Movie.detail",
+      "type": "view",
+      "json": {
+        "id": "c96e2bc7-ca55-4bfc-8796-e5ba290511e3",
+        "type": "view",
+        "key": "detail",
+        "icon": "file-text-o",
+        "name": "View Movie.detail",
+        "settings": {
+          "height": 0,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "labelPosition": "left",
+          "showLabel": 1,
+          "labelWidth": 120,
+          "dataviewID": "70ae6800-4189-46be-a66f-45c368db17f3",
+          "gravity": []
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View Movie.detail"
+          }
+        ],
+        "viewIDs": [
+          "e6d931da-1558-4020-a03d-33706c552f34",
+          "554ef60d-6522-4106-9b8b-3e535e2c0188"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "x": 0,
+          "y": 1
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:06:58.000Z",
+      "updatedAt": "2025-02-16T04:08:12.000Z"
+    },
+    {
+      "id": "e6d931da-1558-4020-a03d-33706c552f34",
+      "name": "View Movie.detail.detailtext",
+      "type": "view",
+      "json": {
+        "id": "e6d931da-1558-4020-a03d-33706c552f34",
+        "type": "view",
+        "key": "detailtext",
+        "icon": "etsy",
+        "settings": {
+          "objectId": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+          "fieldId": "846b1e9a-0f1f-4907-a4f2-cbd7b3277b00",
+          "height": 0,
+          "columnSpan": 1,
+          "rowSpan": 1,
+          "labelWidth": 120
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View Movie.detail.detailtext"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 1
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:07:01.000Z",
+      "updatedAt": "2025-02-16T04:07:01.000Z"
+    },
+    {
+      "id": "554ef60d-6522-4106-9b8b-3e535e2c0188",
+      "name": "View Movie.detail.detailtext",
+      "type": "view",
+      "json": {
+        "id": "554ef60d-6522-4106-9b8b-3e535e2c0188",
+        "type": "view",
+        "key": "detailtext",
+        "icon": "etsy",
+        "settings": {
+          "objectId": "a3934c3f-35fc-4f5a-9717-cf2b03aa3ece",
+          "fieldId": "82e39e21-2e3d-4824-a11a-459ab7561bae",
+          "height": 0,
+          "columnSpan": 1,
+          "rowSpan": 1,
+          "labelWidth": 120
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View Movie.detail.detailtext"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:07:01.000Z",
+      "updatedAt": "2025-02-16T04:07:01.000Z"
+    },
+    {
+      "id": "3ae8056a-8393-41f6-b880-47d22c925cb4",
+      "name": "View Movie.menu",
+      "type": "view",
+      "json": {
+        "id": "3ae8056a-8393-41f6-b880-47d22c925cb4",
+        "type": "view",
+        "key": "menu",
+        "icon": "th-large",
+        "name": "View Movie.menu",
+        "settings": {
+          "height": 0,
+          "columnSpan": 1,
+          "rowSpan": 1,
+          "pages": [],
+          "orientation": "x",
+          "buttonStyle": "ab-menu-default",
+          "menuAlignment": "ab-menu-left",
+          "menuInToolbar": 0,
+          "menuPadding": 10,
+          "menuTheme": "bg_gray",
+          "menuPosition": "left",
+          "order": [
+            {
+              "parent": 0,
+              "position": 0,
+              "icon": "edit",
+              "type": "page",
+              "pageId": "c9faaf3b-fb92-417f-bf1f-fed3f608897e",
+              "isChecked": "true",
+              "translations": [
+                {
+                  "language_code": "en",
+                  "label": "Edit Movie"
+                }
+              ]
+            }
+          ]
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View Movie.menu",
+            "menuTextLeft": "",
+            "menuTextCenter": "",
+            "menuTextRight": ""
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "x": 0,
+          "y": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:07:33.000Z",
+      "updatedAt": "2025-02-16T04:08:12.000Z"
+    },
+    {
+      "id": "dc089b6d-912d-42b3-b0af-95a3b9b8df9e",
+      "name": "View Movies.grid",
+      "type": "view",
+      "json": {
+        "id": "dc089b6d-912d-42b3-b0af-95a3b9b8df9e",
+        "type": "view",
+        "key": "grid",
+        "icon": "table",
+        "name": "View Movies.grid",
+        "settings": {
+          "height": 0,
+          "columnSpan": 1,
+          "rowSpan": 1,
+          "dataviewID": "70ae6800-4189-46be-a66f-45c368db17f3",
+          "padding": 17,
+          "showToolbar": 1,
+          "isEditable": 0,
+          "massUpdate": 0,
+          "allowDelete": 0,
+          "isSortable": 1,
+          "isExportable": 0,
+          "hideHeader": 0,
+          "labelAsField": 0,
+          "hideButtons": 0,
+          "columnConfig": [],
+          "saveLocal": 1,
+          "gridFilter": {
+            "filterOption": 0,
+            "queryRules": [],
+            "isGlobalToolbar": 0
+          },
+          "detailsPage": "9635dead-9dcb-4dd8-9fb4-02aa1ec443c9",
+          "editPage": "",
+          "detailsTab": "",
+          "editTab": "",
+          "trackView": 0,
+          "frozenColumnID": "",
+          "hiddenFields": [],
+          "summaryColumns": [],
+          "countColumns": [],
+          "groupBy": ""
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View Movies.grid"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "x": 0,
+          "y": 1
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:01:06.000Z",
+      "updatedAt": "2025-02-16T04:08:50.000Z"
+    },
+    {
+      "id": "14b4bd3f-26ac-4681-a807-d29f70a88d39",
+      "name": "View Movies.menu",
+      "type": "view",
+      "json": {
+        "id": "14b4bd3f-26ac-4681-a807-d29f70a88d39",
+        "type": "view",
+        "key": "menu",
+        "icon": "th-large",
+        "name": "View Movies.menu",
+        "settings": {
+          "height": 0,
+          "columnSpan": 1,
+          "rowSpan": 1,
+          "pages": [],
+          "orientation": "x",
+          "buttonStyle": "ab-menu-default",
+          "menuAlignment": "ab-menu-left",
+          "menuInToolbar": 0,
+          "menuPadding": 10,
+          "menuTheme": "bg_gray",
+          "menuPosition": "right",
+          "order": [
+            {
+              "parent": 0,
+              "position": 0,
+              "icon": "plus",
+              "type": "page",
+              "pageId": "18d78fe9-2472-419b-a48f-df0e74c8a889",
+              "isChecked": "true",
+              "translations": [
+                {
+                  "language_code": "en",
+                  "label": "Add Movie"
+                }
+              ]
+            }
+          ]
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View Movies.menu",
+            "menuTextLeft": "",
+            "menuTextCenter": "",
+            "menuTextRight": ""
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "x": 0,
+          "y": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2025-02-16T04:02:29.000Z",
+      "updatedAt": "2025-02-16T04:08:23.000Z"
+    }
+  ],
+  "files": {},
+  "siteObjectConnections": {},
+  "roles": []
+}

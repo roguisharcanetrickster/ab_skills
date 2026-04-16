@@ -1,0 +1,1 @@
+cd ab_stack && cp .env.example .env && npm i

@@ -1,0 +1,26 @@
+{
+  "name": "ab_stack",
+  "version": "1.0.0",
+  "description": "Demonstrate containorized appbuilder install",
+  "scripts": {
+    "start_ab": "docker compose create && docker compose up -d",
+    "restart_ab": "docker compose down && docker compose up -d",
+    "halt_ab": "docker compose down",
+    "setup_definitions": "cd ./defs && bash ./upload.sh",
+    "test": "cypress open --project ./test",
+    "cypress:open": "cypress open --project ./test",
+    "test:ci": "cypress run --project ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "testing_agent"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.10.1",
+    "@this-dot/cypress-indexeddb": "^2.0.1",
+    "cypress": "^12.8.1",
+    "dotenv": "^16.4.5"
+  },
+  "author": "RAT",
+  "license": "ISC"
+}

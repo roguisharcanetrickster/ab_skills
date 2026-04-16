@@ -1,0 +1,1 @@
+Project skill: [`.cursor/skills/appbuilder-core-schema/SKILL.md`](.cursor/skills/appbuilder-core-schema/SKILL.md) — AppBuilder `definitions` JSON from object names + relationships. Reference export: [`app_miniApp_20260416.json`](app_miniApp_20260416.json).

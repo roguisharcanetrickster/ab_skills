@@ -1,0 +1,1 @@
+cd ab_stack && cp .env.example .env && npm run start_ab && npm run setup_definitions && npm run test:ci

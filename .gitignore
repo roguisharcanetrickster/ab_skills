@@ -1,0 +1,11 @@
+node_modules/
+
+.DS_Store
+
+test/cypress/screenshots/integration.cy.js/
+
+*.log
+
+.env
+
+test/cypress/e2e/test_setup/sql/combineSql.sql

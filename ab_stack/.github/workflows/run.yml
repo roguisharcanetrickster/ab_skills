@@ -1,0 +1,72 @@
+name: Cypress Test
+on:
+   # Run on any commit to the #main branch
+   push:
+      branches: [main] 
+
+   # Run on pull requests into the #main branch
+   pull_request:
+      branches: [staging]
+
+jobs:
+   cypress-test:
+      runs-on: ubuntu-latest
+      defaults:
+         run:
+            working-directory: ab_stack
+      env:
+         COMPOSE_PROJECT_NAME: ab_stack
+         CYPRESS_RESPONSE_TIMEOUT: 200000
+         CYPRESS_DEFAULT_COMMAND_TIMEOUT: 45000
+         CYPRESS_RETRIES: 0
+         PLATFORM: docker
+         MYSQL_PASSWORD: root
+         ARCHITECTURE: amd64
+         WEB_PORT: 8088
+         DB_PORT: 3306
+         CAS_ENABLED: false
+         SITE_URL: http://localhost:8088
+         AB_WEB_VERSION: develop
+         AB_DB_VERSION: develop
+         AB_API_SAILS_VERSION: develop
+         AB_APPBUILDER_VERSION: develop
+         AB_BOT_MANAGER_VERSION: develop
+         AB_CUSTOM_REPORTS_VERSION: develop
+         AB_DEFINITION_MANAGER_VERSION: develop
+         AB_FILE_PROCESSOR_VERSION: develop
+         AB_LOG_MANAGER_VERSION: develop
+         AB_NOTIFICATION_EMAIL_VERSION: develop
+         AB_PROCESS_MANAGER_VERSION: develop
+         AB_RELAY_VERSION: develop
+         AB_TENANT_MANAGER_VERSION: develop
+         AB_USER_MANAGER_VERSION: develop
+         MYSQL_USER: root
+         MYSQL_DBPREFIX: "appbuilder"
+         MYSQL_DBADMIN: "appbuilder-admin"
+         CYPRESS_TENANT: "admin"
+         CYPRESS_USER_EMAIL: "admin@email.com"
+         CYPRESS_USER_PASSWORD: "admin"
+         CYPRESS_STACK: ab
+         CYPRESS_DB_USER: root
+         CYPRESS_DB_PASSWORD: root
+         SAILS_SESSION_SECRET: "O9cgzQrvqnRpXY4XHxZOdshGsCq_OH76"
+      steps:
+         - uses: actions/checkout@v4
+           with:
+            submodules: recursive
+         - name: Use Node.js
+           uses: actions/setup-node@v4
+           with:
+             node-version: '20.x'
+             cache: 'npm'
+             cache-dependency-path: ab_stack/package-lock.json
+         - run: docker compose up -d
+         - run: npm ci
+         - run: cd ./defs && bash ./upload.sh
+         - run: npm run test:ci
+         - name: Upload Cypress screenshots
+           if: failure()
+           uses: actions/upload-artifact@v4
+           with:
+              name: cypress-screenshots
+              path: ab_stack/test/cypress/screenshots
