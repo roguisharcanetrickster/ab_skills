@@ -1,0 +1,1519 @@
+{
+  "abVersion": "0.0.0",
+  "filename": "app_bibleStudyGroup_20260416",
+  "date": "20260416",
+  "definitions": [
+    {
+      "id": "a7418441-67ea-4311-a237-e39feb9824d1",
+      "name": "Bible study group",
+      "type": "application",
+      "json": {
+        "id": "a7418441-67ea-4311-a237-e39feb9824d1",
+        "type": "application",
+        "appType": "web",
+        "name": "Bible study group",
+        "icon": "fa-book",
+        "isSystemObject": 0,
+        "json": {
+          "translations": [
+            {
+              "language_code": "en",
+              "label": "Bible study group",
+              "description": ""
+            }
+          ],
+          "name": "Bible study group",
+          "versionData": {
+            "versionNumber": "1.0.0",
+            "changeLog": {
+              "1.0.0": {
+                "author": "N/A",
+                "version": "1.0.0",
+                "keepVersion": 0,
+                "commitMessage": "Initial Version",
+                "timestamp": "2026-04-16T02:31:23.000Z",
+                "versionNumber": "1.0.0"
+              }
+            }
+          },
+          "objectIDs": [
+            "3243af33-f23e-429f-b9e0-ceede28265f7",
+            "52f955f6-c0bf-41fa-bf0b-1a67e6c76442",
+            "ab3a7790-9996-4588-93a5-797edc5fd550",
+            "0a7a1138-f089-4f78-8798-2f33fb2da85e",
+            "88037823-588e-4709-96f5-2b9d97e7ea9c"
+          ],
+          "objectListSettings": {
+            "isOpen": false,
+            "searchText": "",
+            "sortDirection": "asc",
+            "isGroup": false
+          },
+          "hintIDs": [],
+          "queryIDs": [],
+          "datacollectionIDs": [],
+          "pageIDs": [],
+          "processIDs": []
+        },
+        "roleAccess": [],
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Bible study group",
+            "description": ""
+          }
+        ],
+        "isAccessManaged": false,
+        "isTranslationManaged": false,
+        "isTutorialManaged": false,
+        "accessManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        },
+        "translationManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        },
+        "tutorialManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        }
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "3243af33-f23e-429f-b9e0-ceede28265f7",
+      "name": "Mothers",
+      "type": "object",
+      "json": {
+        "id": "3243af33-f23e-429f-b9e0-ceede28265f7",
+        "type": "object",
+        "name": "Mothers",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_bibleStudyGroup_Mothers",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Mothers"
+          }
+        ],
+        "fieldIDs": [
+          "175910c0-e93a-4008-9443-fc5c390af68a",
+          "63e2396c-30dc-43b3-9b03-d08c76a8a475",
+          "36a7ccea-87bb-444e-91e1-ba36201c95b5",
+          "aed3782f-b29e-4238-9693-276e71ba9728",
+          "d9437749-7b5c-4a50-a0b8-8119f1ba476f",
+          "486eef21-ff81-46ab-9f9f-927c907a8572",
+          "09995ade-1a59-403b-962e-94631ae1b6a2"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "a7418441-67ea-4311-a237-e39feb9824d1"
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "175910c0-e93a-4008-9443-fc5c390af68a",
+      "name": "Mothers->index",
+      "type": "field",
+      "json": {
+        "id": "175910c0-e93a-4008-9443-fc5c390af68a",
+        "type": "field",
+        "key": "AutoIndex",
+        "icon": "key",
+        "isImported": 0,
+        "columnName": "index",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "prefix": "",
+          "delimiter": "none",
+          "displayLength": 5,
+          "previewText": "00000",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "index"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "63e2396c-30dc-43b3-9b03-d08c76a8a475",
+      "name": "Mothers->Name",
+      "type": "field",
+      "json": {
+        "id": "63e2396c-30dc-43b3-9b03-d08c76a8a475",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Name",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Name"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "36a7ccea-87bb-444e-91e1-ba36201c95b5",
+      "name": "Mothers->Description",
+      "type": "field",
+      "json": {
+        "id": "36a7ccea-87bb-444e-91e1-ba36201c95b5",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Description",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Description"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "aed3782f-b29e-4238-9693-276e71ba9728",
+      "name": "Mothers->createdAt",
+      "type": "field",
+      "json": {
+        "id": "aed3782f-b29e-4238-9693-276e71ba9728",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "createdAt",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:31:23.000Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:31:23.000Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "createdAt"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "d9437749-7b5c-4a50-a0b8-8119f1ba476f",
+      "name": "Mothers->updatedAt",
+      "type": "field",
+      "json": {
+        "id": "d9437749-7b5c-4a50-a0b8-8119f1ba476f",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "updatedAt",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:31:23.000Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:31:23.000Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "updatedAt"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "486eef21-ff81-46ab-9f9f-927c907a8572",
+      "name": "Mothers->Application",
+      "type": "field",
+      "json": {
+        "id": "486eef21-ff81-46ab-9f9f-927c907a8572",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Application",
+        "settings": {
+          "showIcon": 1,
+          "linkObject": "0a7a1138-f089-4f78-8798-2f33fb2da85e",
+          "linkType": "many",
+          "linkViaType": "one",
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "isSource": 0,
+          "width": 120,
+          "required": 0,
+          "unique": 0,
+          "linkColumn": "317f8614-54de-4dc4-8bbb-d9722bd76339"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Application"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "09995ade-1a59-403b-962e-94631ae1b6a2",
+      "name": "Mothers->Group Membership",
+      "type": "field",
+      "json": {
+        "id": "09995ade-1a59-403b-962e-94631ae1b6a2",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "GroupMembership",
+        "settings": {
+          "showIcon": 1,
+          "linkObject": "88037823-588e-4709-96f5-2b9d97e7ea9c",
+          "linkType": "many",
+          "linkViaType": "one",
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "isSource": 0,
+          "width": 120,
+          "required": 0,
+          "unique": 0,
+          "linkColumn": "ff6212f3-2fd2-477d-9a43-9711ca703973"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Group Membership"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "52f955f6-c0bf-41fa-bf0b-1a67e6c76442",
+      "name": "Groups",
+      "type": "object",
+      "json": {
+        "id": "52f955f6-c0bf-41fa-bf0b-1a67e6c76442",
+        "type": "object",
+        "name": "Groups",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_bibleStudyGroup_Groups",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Groups"
+          }
+        ],
+        "fieldIDs": [
+          "1a30e3e0-0687-4868-968c-eb098412746a",
+          "b0b5ce9d-a0b6-44a5-b411-e9cd291d8387",
+          "8c69ca0b-08d7-48bf-97ea-4293f323fad7",
+          "e2d40ef8-4f46-4d40-ad4b-8c69e96762fc",
+          "d449bed4-0817-4b60-bb62-529321e62a90",
+          "923f4460-e0e1-4076-a401-5dd3643f3f79",
+          "b946addf-7e79-46c5-954f-2d69f3e6aa54",
+          "45659bb4-5b61-4949-91e4-c9f2aeb5467f"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "a7418441-67ea-4311-a237-e39feb9824d1"
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "1a30e3e0-0687-4868-968c-eb098412746a",
+      "name": "Groups->index",
+      "type": "field",
+      "json": {
+        "id": "1a30e3e0-0687-4868-968c-eb098412746a",
+        "type": "field",
+        "key": "AutoIndex",
+        "icon": "key",
+        "isImported": 0,
+        "columnName": "index",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "prefix": "",
+          "delimiter": "none",
+          "displayLength": 5,
+          "previewText": "00000",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "index"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "b0b5ce9d-a0b6-44a5-b411-e9cd291d8387",
+      "name": "Groups->Name",
+      "type": "field",
+      "json": {
+        "id": "b0b5ce9d-a0b6-44a5-b411-e9cd291d8387",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Name",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Name"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "8c69ca0b-08d7-48bf-97ea-4293f323fad7",
+      "name": "Groups->Description",
+      "type": "field",
+      "json": {
+        "id": "8c69ca0b-08d7-48bf-97ea-4293f323fad7",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Description",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Description"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "e2d40ef8-4f46-4d40-ad4b-8c69e96762fc",
+      "name": "Groups->createdAt",
+      "type": "field",
+      "json": {
+        "id": "e2d40ef8-4f46-4d40-ad4b-8c69e96762fc",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "createdAt",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:31:23.000Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:31:23.000Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "createdAt"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "d449bed4-0817-4b60-bb62-529321e62a90",
+      "name": "Groups->updatedAt",
+      "type": "field",
+      "json": {
+        "id": "d449bed4-0817-4b60-bb62-529321e62a90",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "updatedAt",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:31:23.000Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:31:23.000Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "updatedAt"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "923f4460-e0e1-4076-a401-5dd3643f3f79",
+      "name": "Groups->Group Meeting",
+      "type": "field",
+      "json": {
+        "id": "923f4460-e0e1-4076-a401-5dd3643f3f79",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "GroupMeeting",
+        "settings": {
+          "showIcon": 1,
+          "linkObject": "ab3a7790-9996-4588-93a5-797edc5fd550",
+          "linkType": "many",
+          "linkViaType": "one",
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "isSource": 0,
+          "width": 120,
+          "required": 0,
+          "unique": 0,
+          "linkColumn": "3ddbaf6a-c2f1-4332-b956-00f5128b7b9f"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Group Meeting"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "b946addf-7e79-46c5-954f-2d69f3e6aa54",
+      "name": "Groups->Application",
+      "type": "field",
+      "json": {
+        "id": "b946addf-7e79-46c5-954f-2d69f3e6aa54",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Application",
+        "settings": {
+          "showIcon": 1,
+          "linkObject": "0a7a1138-f089-4f78-8798-2f33fb2da85e",
+          "linkType": "many",
+          "linkViaType": "one",
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "isSource": 0,
+          "width": 120,
+          "required": 0,
+          "unique": 0,
+          "linkColumn": "7b57e31c-2a25-45a9-88ff-012d86df8c1f"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Application"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "45659bb4-5b61-4949-91e4-c9f2aeb5467f",
+      "name": "Groups->Group Membership",
+      "type": "field",
+      "json": {
+        "id": "45659bb4-5b61-4949-91e4-c9f2aeb5467f",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "GroupMembership",
+        "settings": {
+          "showIcon": 1,
+          "linkObject": "88037823-588e-4709-96f5-2b9d97e7ea9c",
+          "linkType": "many",
+          "linkViaType": "one",
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "isSource": 0,
+          "width": 120,
+          "required": 0,
+          "unique": 0,
+          "linkColumn": "ebb4d792-b4c3-4b57-8d33-7386e3c364fe"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Group Membership"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "ab3a7790-9996-4588-93a5-797edc5fd550",
+      "name": "Group Meetings",
+      "type": "object",
+      "json": {
+        "id": "ab3a7790-9996-4588-93a5-797edc5fd550",
+        "type": "object",
+        "name": "Group Meetings",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_bibleStudyGroup_GroupMeetings",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Group Meetings"
+          }
+        ],
+        "fieldIDs": [
+          "b0b0602c-8e6e-44d8-b380-24b7c3e839d8",
+          "bc528e78-9c6f-4333-8ca4-ec083c86d351",
+          "1b201077-8c65-421a-a399-7852f7360481",
+          "5bec4531-0232-463e-b9d3-791fd21c1bce",
+          "3ddbaf6a-c2f1-4332-b956-00f5128b7b9f"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "a7418441-67ea-4311-a237-e39feb9824d1"
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "b0b0602c-8e6e-44d8-b380-24b7c3e839d8",
+      "name": "Group Meetings->index",
+      "type": "field",
+      "json": {
+        "id": "b0b0602c-8e6e-44d8-b380-24b7c3e839d8",
+        "type": "field",
+        "key": "AutoIndex",
+        "icon": "key",
+        "isImported": 0,
+        "columnName": "index",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "prefix": "",
+          "delimiter": "none",
+          "displayLength": 5,
+          "previewText": "00000",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "index"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "bc528e78-9c6f-4333-8ca4-ec083c86d351",
+      "name": "Group Meetings->Name",
+      "type": "field",
+      "json": {
+        "id": "bc528e78-9c6f-4333-8ca4-ec083c86d351",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Name",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Name"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "1b201077-8c65-421a-a399-7852f7360481",
+      "name": "Group Meetings->Description",
+      "type": "field",
+      "json": {
+        "id": "1b201077-8c65-421a-a399-7852f7360481",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Description",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Description"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "5bec4531-0232-463e-b9d3-791fd21c1bce",
+      "name": "Group Meetings->scheduledAt",
+      "type": "field",
+      "json": {
+        "id": "5bec4531-0232-463e-b9d3-791fd21c1bce",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "scheduledAt",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:31:23.000Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:31:23.000Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "scheduledAt"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "3ddbaf6a-c2f1-4332-b956-00f5128b7b9f",
+      "name": "Group Meetings->Group",
+      "type": "field",
+      "json": {
+        "id": "3ddbaf6a-c2f1-4332-b956-00f5128b7b9f",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Group",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "linkObject": "52f955f6-c0bf-41fa-bf0b-1a67e6c76442",
+          "linkType": "one",
+          "linkViaType": "many",
+          "linkColumn": "923f4460-e0e1-4076-a401-5dd3643f3f79",
+          "isSource": 1,
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "netsuiteOneColumn": "",
+          "width": 120
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Group"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "0a7a1138-f089-4f78-8798-2f33fb2da85e",
+      "name": "Applications",
+      "type": "object",
+      "json": {
+        "id": "0a7a1138-f089-4f78-8798-2f33fb2da85e",
+        "type": "object",
+        "name": "Applications",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_bibleStudyGroup_Applications",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Applications"
+          }
+        ],
+        "fieldIDs": [
+          "502d831f-910d-46ee-aa9f-97fe838bc43e",
+          "3dc64cff-6e89-4948-a0f7-709cf2efb47d",
+          "38fdf7f6-38d7-47a8-91cc-c6c0e5847c84",
+          "110add0c-5d8b-4461-b90d-6230aa8b13ce",
+          "d1c18a48-7883-4c1e-bf01-2d1ca5876b6d",
+          "317f8614-54de-4dc4-8bbb-d9722bd76339",
+          "7b57e31c-2a25-45a9-88ff-012d86df8c1f"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "a7418441-67ea-4311-a237-e39feb9824d1"
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "502d831f-910d-46ee-aa9f-97fe838bc43e",
+      "name": "Applications->index",
+      "type": "field",
+      "json": {
+        "id": "502d831f-910d-46ee-aa9f-97fe838bc43e",
+        "type": "field",
+        "key": "AutoIndex",
+        "icon": "key",
+        "isImported": 0,
+        "columnName": "index",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "prefix": "",
+          "delimiter": "none",
+          "displayLength": 5,
+          "previewText": "00000",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "index"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "3dc64cff-6e89-4948-a0f7-709cf2efb47d",
+      "name": "Applications->Name",
+      "type": "field",
+      "json": {
+        "id": "3dc64cff-6e89-4948-a0f7-709cf2efb47d",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Name",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Name"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "38fdf7f6-38d7-47a8-91cc-c6c0e5847c84",
+      "name": "Applications->Description",
+      "type": "field",
+      "json": {
+        "id": "38fdf7f6-38d7-47a8-91cc-c6c0e5847c84",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Description",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Description"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "110add0c-5d8b-4461-b90d-6230aa8b13ce",
+      "name": "Applications->createdAt",
+      "type": "field",
+      "json": {
+        "id": "110add0c-5d8b-4461-b90d-6230aa8b13ce",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "createdAt",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:31:23.000Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:31:23.000Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "createdAt"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "d1c18a48-7883-4c1e-bf01-2d1ca5876b6d",
+      "name": "Applications->updatedAt",
+      "type": "field",
+      "json": {
+        "id": "d1c18a48-7883-4c1e-bf01-2d1ca5876b6d",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "updatedAt",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:31:23.000Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:31:23.000Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "updatedAt"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "317f8614-54de-4dc4-8bbb-d9722bd76339",
+      "name": "Applications->Mother",
+      "type": "field",
+      "json": {
+        "id": "317f8614-54de-4dc4-8bbb-d9722bd76339",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Mother",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "linkObject": "3243af33-f23e-429f-b9e0-ceede28265f7",
+          "linkType": "one",
+          "linkViaType": "many",
+          "linkColumn": "486eef21-ff81-46ab-9f9f-927c907a8572",
+          "isSource": 1,
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "netsuiteOneColumn": "",
+          "width": 120
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Mother"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "7b57e31c-2a25-45a9-88ff-012d86df8c1f",
+      "name": "Applications->Group",
+      "type": "field",
+      "json": {
+        "id": "7b57e31c-2a25-45a9-88ff-012d86df8c1f",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Group",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "linkObject": "52f955f6-c0bf-41fa-bf0b-1a67e6c76442",
+          "linkType": "one",
+          "linkViaType": "many",
+          "linkColumn": "b946addf-7e79-46c5-954f-2d69f3e6aa54",
+          "isSource": 1,
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "netsuiteOneColumn": "",
+          "width": 120
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Group"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "88037823-588e-4709-96f5-2b9d97e7ea9c",
+      "name": "Group Memberships",
+      "type": "object",
+      "json": {
+        "id": "88037823-588e-4709-96f5-2b9d97e7ea9c",
+        "type": "object",
+        "name": "Group Memberships",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_bibleStudyGroup_GroupMemberships",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Group Memberships"
+          }
+        ],
+        "fieldIDs": [
+          "37ea1d41-0aa5-4911-8f95-0e599532ab6e",
+          "17ddbdef-d9ca-4788-88ba-559e03f4b015",
+          "4fc135de-8b2c-4d18-964d-f7db9ded3cfb",
+          "abbfc773-5121-4da9-bf8a-4023531dfa15",
+          "e6d3703e-424c-409c-93e3-e9e67d0b7eef",
+          "ff6212f3-2fd2-477d-9a43-9711ca703973",
+          "ebb4d792-b4c3-4b57-8d33-7386e3c364fe"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "a7418441-67ea-4311-a237-e39feb9824d1"
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "37ea1d41-0aa5-4911-8f95-0e599532ab6e",
+      "name": "Group Memberships->index",
+      "type": "field",
+      "json": {
+        "id": "37ea1d41-0aa5-4911-8f95-0e599532ab6e",
+        "type": "field",
+        "key": "AutoIndex",
+        "icon": "key",
+        "isImported": 0,
+        "columnName": "index",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "prefix": "",
+          "delimiter": "none",
+          "displayLength": 5,
+          "previewText": "00000",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "index"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "17ddbdef-d9ca-4788-88ba-559e03f4b015",
+      "name": "Group Memberships->Name",
+      "type": "field",
+      "json": {
+        "id": "17ddbdef-d9ca-4788-88ba-559e03f4b015",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Name",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Name"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "4fc135de-8b2c-4d18-964d-f7db9ded3cfb",
+      "name": "Group Memberships->Description",
+      "type": "field",
+      "json": {
+        "id": "4fc135de-8b2c-4d18-964d-f7db9ded3cfb",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Description",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Description"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "abbfc773-5121-4da9-bf8a-4023531dfa15",
+      "name": "Group Memberships->createdAt",
+      "type": "field",
+      "json": {
+        "id": "abbfc773-5121-4da9-bf8a-4023531dfa15",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "createdAt",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:31:23.000Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:31:23.000Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "createdAt"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "e6d3703e-424c-409c-93e3-e9e67d0b7eef",
+      "name": "Group Memberships->updatedAt",
+      "type": "field",
+      "json": {
+        "id": "e6d3703e-424c-409c-93e3-e9e67d0b7eef",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "updatedAt",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:31:23.000Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:31:23.000Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "updatedAt"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "ff6212f3-2fd2-477d-9a43-9711ca703973",
+      "name": "Group Memberships->Mother",
+      "type": "field",
+      "json": {
+        "id": "ff6212f3-2fd2-477d-9a43-9711ca703973",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Mother",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "linkObject": "3243af33-f23e-429f-b9e0-ceede28265f7",
+          "linkType": "one",
+          "linkViaType": "many",
+          "linkColumn": "09995ade-1a59-403b-962e-94631ae1b6a2",
+          "isSource": 1,
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "netsuiteOneColumn": "",
+          "width": 120
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Mother"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    },
+    {
+      "id": "ebb4d792-b4c3-4b57-8d33-7386e3c364fe",
+      "name": "Group Memberships->Group",
+      "type": "field",
+      "json": {
+        "id": "ebb4d792-b4c3-4b57-8d33-7386e3c364fe",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Group",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "linkObject": "52f955f6-c0bf-41fa-bf0b-1a67e6c76442",
+          "linkType": "one",
+          "linkViaType": "many",
+          "linkColumn": "45659bb4-5b61-4949-91e4-c9f2aeb5467f",
+          "isSource": 1,
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "netsuiteOneColumn": "",
+          "width": 120
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Group"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:31:23.000Z",
+      "updatedAt": "2026-04-16T02:31:23.000Z"
+    }
+  ],
+  "files": {},
+  "siteObjectConnections": {},
+  "roles": []
+}

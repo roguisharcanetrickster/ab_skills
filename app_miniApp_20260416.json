@@ -1,0 +1,426 @@
+{
+  "abVersion": "0.0.0",
+  "filename": "app_miniApp_20260416",
+  "date": "20260416",
+  "definitions": [
+    {
+      "id": "ab666d55-5998-4427-a132-2a00fed412dd",
+      "name": "miniApp",
+      "type": "application",
+      "json": {
+        "id": "ab666d55-5998-4427-a132-2a00fed412dd",
+        "type": "application",
+        "appType": "web",
+        "name": "miniApp",
+        "icon": "fa-rocket",
+        "isSystemObject": 0,
+        "json": {
+          "translations": [
+            {
+              "language_code": "en",
+              "label": "miniApp",
+              "description": ""
+            }
+          ],
+          "name": "miniApp",
+          "versionData": {
+            "versionNumber": "1.0.0",
+            "changeLog": {
+              "1.0.0": {
+                "author": "N/A",
+                "version": "1.0.0",
+                "keepVersion": 0,
+                "commitMessage": "Initial Version",
+                "timestamp": "2026-04-16T02:15:21.985Z",
+                "versionNumber": "1.0.0"
+              }
+            }
+          },
+          "objectIDs": [
+            "2bbaabec-8603-4edf-9684-08b1b09248ec",
+            "3c124d56-79a4-4b47-95cd-110780c2cbda"
+          ],
+          "objectListSettings": {
+            "isOpen": false,
+            "searchText": "",
+            "sortDirection": "asc",
+            "isGroup": false
+          },
+          "hintIDs": [],
+          "queryIDs": [],
+          "datacollectionIDs": [],
+          "pageIDs": [],
+          "processIDs": []
+        },
+        "roleAccess": [
+          "6cc04894-a61b-4fb5-b3e5-b8c3f78bd331",
+          "dd6c2d34-0982-48b7-bc44-2456474edbea"
+        ],
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "miniApp",
+            "description": ""
+          }
+        ],
+        "isAccessManaged": false,
+        "isTranslationManaged": false,
+        "isTutorialManaged": false,
+        "accessManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        },
+        "translationManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        },
+        "tutorialManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        }
+      },
+      "createdAt": "2026-04-16T02:15:22.000Z",
+      "updatedAt": "2026-04-16T02:16:42.000Z"
+    },
+    {
+      "id": "2bbaabec-8603-4edf-9684-08b1b09248ec",
+      "name": "Diners",
+      "type": "object",
+      "json": {
+        "id": "2bbaabec-8603-4edf-9684-08b1b09248ec",
+        "type": "object",
+        "name": "Diners",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_miniApp_Diners",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Diners"
+          }
+        ],
+        "fieldIDs": [
+          "05e6aa82-fde0-4ed2-a6c7-af21c3b881df",
+          "c9aa703d-0461-4b34-9506-a0a591b5cefd",
+          "e3d2ca98-1fb1-4592-ade1-5afbf7033801"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "ab666d55-5998-4427-a132-2a00fed412dd"
+      },
+      "createdAt": "2026-04-16T02:15:38.000Z",
+      "updatedAt": "2026-04-16T02:18:01.000Z"
+    },
+    {
+      "id": "05e6aa82-fde0-4ed2-a6c7-af21c3b881df",
+      "name": "Diners->index",
+      "type": "field",
+      "json": {
+        "id": "05e6aa82-fde0-4ed2-a6c7-af21c3b881df",
+        "type": "field",
+        "key": "AutoIndex",
+        "icon": "key",
+        "isImported": 0,
+        "columnName": "index",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "prefix": "",
+          "delimiter": "none",
+          "displayLength": 5,
+          "previewText": "00000",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "index"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:15:54.000Z",
+      "updatedAt": "2026-04-16T02:15:54.000Z"
+    },
+    {
+      "id": "c9aa703d-0461-4b34-9506-a0a591b5cefd",
+      "name": "Diners->Name",
+      "type": "field",
+      "json": {
+        "id": "c9aa703d-0461-4b34-9506-a0a591b5cefd",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Name",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Name"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:16:06.000Z",
+      "updatedAt": "2026-04-16T02:16:06.000Z"
+    },
+    {
+      "id": "e3d2ca98-1fb1-4592-ade1-5afbf7033801",
+      "name": "Diners->Reservation",
+      "type": "field",
+      "json": {
+        "id": "e3d2ca98-1fb1-4592-ade1-5afbf7033801",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Customer",
+        "settings": {
+          "showIcon": 1,
+          "linkObject": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+          "linkType": "many",
+          "linkViaType": "one",
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "isSource": 0,
+          "width": 120,
+          "required": 0,
+          "unique": 0,
+          "linkColumn": "74e56b90-a678-4f72-833b-b415a02aed69"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Reservation"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:18:01.000Z",
+      "updatedAt": "2026-04-16T02:18:01.000Z"
+    },
+    {
+      "id": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+      "name": "Reservation",
+      "type": "object",
+      "json": {
+        "id": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+        "type": "object",
+        "name": "Reservation",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_miniApp_Reservation",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Reservation"
+          }
+        ],
+        "fieldIDs": [
+          "83e3939f-0be5-4010-a7a7-b48b7575076b",
+          "6bbd5752-5b7c-4642-8aee-0e708098352d",
+          "da1d335f-69f1-4ddb-b415-145622d6eeba",
+          "74e56b90-a678-4f72-833b-b415a02aed69"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "ab666d55-5998-4427-a132-2a00fed412dd"
+      },
+      "createdAt": "2026-04-16T02:16:41.000Z",
+      "updatedAt": "2026-04-16T02:18:01.000Z"
+    },
+    {
+      "id": "83e3939f-0be5-4010-a7a7-b48b7575076b",
+      "name": "Reservation->index",
+      "type": "field",
+      "json": {
+        "id": "83e3939f-0be5-4010-a7a7-b48b7575076b",
+        "type": "field",
+        "key": "AutoIndex",
+        "icon": "key",
+        "isImported": 0,
+        "columnName": "index",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "prefix": "",
+          "delimiter": "none",
+          "displayLength": 7,
+          "previewText": "0000000",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "index"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:16:55.000Z",
+      "updatedAt": "2026-04-16T02:16:55.000Z"
+    },
+    {
+      "id": "6bbd5752-5b7c-4642-8aee-0e708098352d",
+      "name": "Reservation->Table Number",
+      "type": "field",
+      "json": {
+        "id": "6bbd5752-5b7c-4642-8aee-0e708098352d",
+        "type": "field",
+        "key": "number",
+        "icon": "hashtag",
+        "isImported": 0,
+        "columnName": "Table Number",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "typeFormat": "none",
+          "typeDecimals": "none",
+          "typeDecimalPlaces": 0,
+          "typeRounding": "none",
+          "typeThousands": "none",
+          "validation": 0,
+          "validateMinimum": "",
+          "validateMaximum": "",
+          "width": 160
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Table Number"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:17:18.000Z",
+      "updatedAt": "2026-04-16T02:17:18.000Z"
+    },
+    {
+      "id": "da1d335f-69f1-4ddb-b415-145622d6eeba",
+      "name": "Reservation->time",
+      "type": "field",
+      "json": {
+        "id": "da1d335f-69f1-4ddb-b415-145622d6eeba",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "time",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:18:49.748Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:18:53.381Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "time"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:17:32.000Z",
+      "updatedAt": "2026-04-16T02:18:54.000Z"
+    },
+    {
+      "id": "74e56b90-a678-4f72-833b-b415a02aed69",
+      "name": "Reservation->Customer",
+      "type": "field",
+      "json": {
+        "id": "74e56b90-a678-4f72-833b-b415a02aed69",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Customer",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "linkObject": "2bbaabec-8603-4edf-9684-08b1b09248ec",
+          "linkType": "one",
+          "linkViaType": "many",
+          "linkColumn": "e3d2ca98-1fb1-4592-ade1-5afbf7033801",
+          "isSource": 1,
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "netsuiteOneColumn": "",
+          "width": 120
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Customer"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:18:01.000Z",
+      "updatedAt": "2026-04-16T02:19:37.000Z"
+    }
+  ],
+  "files": {},
+  "siteObjectConnections": {},
+  "roles": []
+}
