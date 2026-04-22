@@ -1,1 +1,1 @@
-cd ab_stack && cp .env.example .env && npm i
+cd ab_stack && cp .env.example .env && npm i && npm run start_ab && ./migrate.sh

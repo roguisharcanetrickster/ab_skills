@@ -46,11 +46,12 @@ Cypress.Commands.add("RunSQL", (files) => {
       }
       const containerId = stdout.match(regEx)[0];
       /* eslint-disable no-useless-escape*/
-      files.forEach((file) => {
-         let catCmd = `cat ./cypress/e2e/test_setup/sql/${file} > ./cypress/e2e/test_setup/sql/combineSql.sql`;
-         cy.log(catCmd);
-         cy.exec(catCmd);
-      });
+      const paths = files
+         .map((file) => `./cypress/e2e/test_setup/sql/${file}`)
+         .join(" ");
+      const catCmd = `cat ${paths} > ./cypress/e2e/test_setup/sql/combineSql.sql`;
+      cy.log(catCmd);
+      cy.exec(catCmd);
       cy.exec(`docker exec ${containerId} mkdir -p /sql`);
       cy.exec(
          `docker cp ./cypress/e2e/test_setup/sql/combineSql.sql ${containerId}:/sql/combineSql.sql`,

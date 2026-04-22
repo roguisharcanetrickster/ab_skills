@@ -1,0 +1,1619 @@
+{
+  "abVersion": "0.0.0",
+  "filename": "app_CRUD_app_20260416",
+  "date": "20260416",
+  "definitions": [
+    {
+      "id": "ee9e65c7-1a02-4204-91be-4f83e9f7feae",
+      "name": "CRUD app",
+      "type": "application",
+      "json": {
+        "id": "ee9e65c7-1a02-4204-91be-4f83e9f7feae",
+        "type": "application",
+        "appType": "web",
+        "name": "CRUD app",
+        "icon": "fa-rocket",
+        "isSystemObject": 0,
+        "json": {
+          "translations": [
+            {
+              "language_code": "en",
+              "label": "CRUD app",
+              "description": ""
+            }
+          ],
+          "name": "CRUD app",
+          "versionData": {
+            "versionNumber": "1.0.0",
+            "changeLog": {
+              "1.0.0": {
+                "author": "N/A",
+                "version": "1.0.0",
+                "keepVersion": 0,
+                "commitMessage": "Initial Version",
+                "timestamp": "2026-04-16T03:50:52.480Z",
+                "versionNumber": "1.0.0"
+              }
+            }
+          },
+          "objectIDs": [
+            "3c124d56-79a4-4b47-95cd-110780c2cbda",
+            "2bbaabec-8603-4edf-9684-08b1b09248ec"
+          ],
+          "objectListSettings": {
+            "isOpen": false,
+            "searchText": "",
+            "sortDirection": "asc",
+            "isGroup": false
+          },
+          "hintIDs": [],
+          "queryIDs": [
+            "69c2e207-bf41-4e1b-8316-4455c8b2352b"
+          ],
+          "datacollectionIDs": [
+            "c0180217-8589-4460-9985-693c79f1d02b",
+            "ba9450ae-eec6-4545-86bf-9c5027fca7fb",
+            "8ada0456-0cbe-46db-9d3c-84c5793e4108"
+          ],
+          "pageIDs": [
+            "78b7e3ff-2bb7-42de-8af3-257402e8e608",
+            "14d0d671-8ae3-456d-b10f-8f52a5f4c27c"
+          ],
+          "processIDs": []
+        },
+        "roleAccess": [
+          "dd6c2d34-0982-48b7-bc44-2456474edbea",
+          "6cc04894-a61b-4fb5-b3e5-b8c3f78bd331"
+        ],
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "CRUD app",
+            "description": ""
+          }
+        ],
+        "isAccessManaged": false,
+        "isTranslationManaged": false,
+        "isTutorialManaged": false,
+        "accessManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        },
+        "translationManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        },
+        "tutorialManagers": {
+          "useRole": 0,
+          "role": null,
+          "useAccount": 0,
+          "account": null
+        }
+      },
+      "createdAt": "2026-04-16T03:50:52.000Z",
+      "updatedAt": "2026-04-16T04:04:50.000Z"
+    },
+    {
+      "id": "2bbaabec-8603-4edf-9684-08b1b09248ec",
+      "name": "Diners",
+      "type": "object",
+      "json": {
+        "id": "2bbaabec-8603-4edf-9684-08b1b09248ec",
+        "type": "object",
+        "name": "Diners",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_miniApp_Diners",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Diners"
+          }
+        ],
+        "fieldIDs": [
+          "05e6aa82-fde0-4ed2-a6c7-af21c3b881df",
+          "c9aa703d-0461-4b34-9506-a0a591b5cefd",
+          "e3d2ca98-1fb1-4592-ade1-5afbf7033801"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "ab666d55-5998-4427-a132-2a00fed412dd"
+      },
+      "createdAt": "2026-04-16T02:15:38.000Z",
+      "updatedAt": "2026-04-16T02:18:01.000Z"
+    },
+    {
+      "id": "05e6aa82-fde0-4ed2-a6c7-af21c3b881df",
+      "name": "Diners->index",
+      "type": "field",
+      "json": {
+        "id": "05e6aa82-fde0-4ed2-a6c7-af21c3b881df",
+        "type": "field",
+        "key": "AutoIndex",
+        "icon": "key",
+        "isImported": 0,
+        "columnName": "index",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "prefix": "",
+          "delimiter": "none",
+          "displayLength": 5,
+          "previewText": "00000",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "index"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:15:54.000Z",
+      "updatedAt": "2026-04-16T02:15:54.000Z"
+    },
+    {
+      "id": "c9aa703d-0461-4b34-9506-a0a591b5cefd",
+      "name": "Diners->Name",
+      "type": "field",
+      "json": {
+        "id": "c9aa703d-0461-4b34-9506-a0a591b5cefd",
+        "type": "field",
+        "key": "string",
+        "icon": "font",
+        "isImported": 0,
+        "columnName": "Name",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "maxLength": "",
+          "supportMultilingual": 0,
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Name"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:16:06.000Z",
+      "updatedAt": "2026-04-16T02:16:06.000Z"
+    },
+    {
+      "id": "e3d2ca98-1fb1-4592-ade1-5afbf7033801",
+      "name": "Diners->Reservation",
+      "type": "field",
+      "json": {
+        "id": "e3d2ca98-1fb1-4592-ade1-5afbf7033801",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Customer",
+        "settings": {
+          "showIcon": 1,
+          "linkObject": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+          "linkType": "many",
+          "linkViaType": "one",
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "isSource": 0,
+          "width": 120,
+          "required": 0,
+          "unique": 0,
+          "linkColumn": "74e56b90-a678-4f72-833b-b415a02aed69"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Reservation"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:18:01.000Z",
+      "updatedAt": "2026-04-16T02:18:01.000Z"
+    },
+    {
+      "id": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+      "name": "Reservation",
+      "type": "object",
+      "json": {
+        "id": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+        "type": "object",
+        "name": "Reservation",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_miniApp_Reservation",
+        "primaryColumnName": "uuid",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": 0,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Reservation"
+          }
+        ],
+        "fieldIDs": [
+          "83e3939f-0be5-4010-a7a7-b48b7575076b",
+          "6bbd5752-5b7c-4642-8aee-0e708098352d",
+          "da1d335f-69f1-4ddb-b415-145622d6eeba",
+          "74e56b90-a678-4f72-833b-b415a02aed69"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "ab666d55-5998-4427-a132-2a00fed412dd"
+      },
+      "createdAt": "2026-04-16T02:16:41.000Z",
+      "updatedAt": "2026-04-16T02:18:01.000Z"
+    },
+    {
+      "id": "83e3939f-0be5-4010-a7a7-b48b7575076b",
+      "name": "Reservation->index",
+      "type": "field",
+      "json": {
+        "id": "83e3939f-0be5-4010-a7a7-b48b7575076b",
+        "type": "field",
+        "key": "AutoIndex",
+        "icon": "key",
+        "isImported": 0,
+        "columnName": "index",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "prefix": "",
+          "delimiter": "none",
+          "displayLength": 7,
+          "previewText": "0000000",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "index"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:16:55.000Z",
+      "updatedAt": "2026-04-16T02:16:55.000Z"
+    },
+    {
+      "id": "6bbd5752-5b7c-4642-8aee-0e708098352d",
+      "name": "Reservation->Table Number",
+      "type": "field",
+      "json": {
+        "id": "6bbd5752-5b7c-4642-8aee-0e708098352d",
+        "type": "field",
+        "key": "number",
+        "icon": "hashtag",
+        "isImported": 0,
+        "columnName": "Table Number",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "default": "",
+          "typeFormat": "none",
+          "typeDecimals": "none",
+          "typeDecimalPlaces": 0,
+          "typeRounding": "none",
+          "typeThousands": "none",
+          "validation": 0,
+          "validateMinimum": "",
+          "validateMaximum": "",
+          "width": 160
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Table Number"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:17:18.000Z",
+      "updatedAt": "2026-04-16T02:17:18.000Z"
+    },
+    {
+      "id": "da1d335f-69f1-4ddb-b415-145622d6eeba",
+      "name": "Reservation->time",
+      "type": "field",
+      "json": {
+        "id": "da1d335f-69f1-4ddb-b415-145622d6eeba",
+        "type": "field",
+        "key": "datetime",
+        "icon": "clock-o",
+        "isImported": 0,
+        "columnName": "time",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "dateFormat": 2,
+          "defaultDate": 2,
+          "defaultDateValue": "2026-04-16T02:18:49.748Z",
+          "validateCondition": "none",
+          "validateRangeUnit": "days",
+          "validateRangeBefore": 0,
+          "validateRangeAfter": 0,
+          "validateStartDate": null,
+          "validateEndDate": null,
+          "timeFormat": 2,
+          "defaultTime": 2,
+          "defaultTimeValue": "2026-04-16T02:18:53.381Z",
+          "width": 100
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "time"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:17:32.000Z",
+      "updatedAt": "2026-04-16T02:18:54.000Z"
+    },
+    {
+      "id": "74e56b90-a678-4f72-833b-b415a02aed69",
+      "name": "Reservation->Customer",
+      "type": "field",
+      "json": {
+        "id": "74e56b90-a678-4f72-833b-b415a02aed69",
+        "type": "field",
+        "key": "connectObject",
+        "icon": "external-link",
+        "isImported": 0,
+        "columnName": "Customer",
+        "settings": {
+          "showIcon": 1,
+          "required": 0,
+          "unique": 0,
+          "validationRules": "[]",
+          "linkObject": "2bbaabec-8603-4edf-9684-08b1b09248ec",
+          "linkType": "one",
+          "linkViaType": "many",
+          "linkColumn": "e3d2ca98-1fb1-4592-ade1-5afbf7033801",
+          "isSource": 1,
+          "isCustomFK": 0,
+          "indexField": "",
+          "indexField2": "",
+          "netsuiteOneColumn": "",
+          "width": 120
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Customer"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T02:18:01.000Z",
+      "updatedAt": "2026-04-16T02:19:37.000Z"
+    },
+    {
+      "id": "69c2e207-bf41-4e1b-8316-4455c8b2352b",
+      "name": "Upcoming_Customers",
+      "type": "query",
+      "json": {
+        "id": "69c2e207-bf41-4e1b-8316-4455c8b2352b",
+        "type": "query",
+        "name": "Upcoming_Customers",
+        "labelFormat": "",
+        "labelSettings": {
+          "isNoLabelDisplay": 0
+        },
+        "isImported": 0,
+        "isExternal": 0,
+        "tableName": "AB_CRUDapp_Upcoming_Customers",
+        "primaryColumnName": "",
+        "transColumnName": "",
+        "urlPath": "",
+        "objectWorkspace": {
+          "sortFields": [],
+          "filterConditions": [],
+          "frozenColumnID": "",
+          "hiddenFields": []
+        },
+        "isSystemObject": false,
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Upcoming_Customers"
+          }
+        ],
+        "fieldIDs": [
+          "6bbd5752-5b7c-4642-8aee-0e708098352d",
+          "c9aa703d-0461-4b34-9506-a0a591b5cefd",
+          "da1d335f-69f1-4ddb-b415-145622d6eeba"
+        ],
+        "importedFieldIDs": [],
+        "indexIDs": [],
+        "createdInAppID": "ee9e65c7-1a02-4204-91be-4f83e9f7feae",
+        "viewName": "AB_CRUDapp_View_Upcoming_Customers",
+        "joins": {
+          "alias": "BASE_OBJECT",
+          "objectID": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+          "links": [
+            {
+              "alias": "00adeda4",
+              "fieldID": "74e56b90-a678-4f72-833b-b415a02aed69",
+              "type": "innerjoin",
+              "links": []
+            }
+          ]
+        },
+        "fields": [
+          {
+            "alias": "BASE_OBJECT",
+            "objectID": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+            "fieldID": "6bbd5752-5b7c-4642-8aee-0e708098352d"
+          },
+          {
+            "alias": "00adeda4",
+            "objectID": "2bbaabec-8603-4edf-9684-08b1b09248ec",
+            "fieldID": "c9aa703d-0461-4b34-9506-a0a591b5cefd"
+          },
+          {
+            "alias": "BASE_OBJECT",
+            "objectID": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+            "fieldID": "da1d335f-69f1-4ddb-b415-145622d6eeba"
+          }
+        ],
+        "where": {
+          "rules": [],
+          "glue": "and"
+        },
+        "settings": {
+          "grouping": 0,
+          "hidePrefix": 0
+        }
+      },
+      "createdAt": "2026-04-16T03:53:11.000Z",
+      "updatedAt": "2026-04-16T04:05:12.000Z"
+    },
+    {
+      "id": "c0180217-8589-4460-9985-693c79f1d02b",
+      "name": "Diners",
+      "type": "datacollection",
+      "json": {
+        "id": "c0180217-8589-4460-9985-693c79f1d02b",
+        "name": "Diners",
+        "type": "datacollection",
+        "settings": {
+          "linkDatacollectionID": "",
+          "linkFieldID": "",
+          "followDatacollectionID": "",
+          "objectWorkspace": {
+            "filterConditions": {
+              "glue": "and",
+              "rules": []
+            },
+            "sortFields": []
+          },
+          "loadAll": false,
+          "isQuery": false,
+          "populate": true,
+          "syncType": 1,
+          "skipPack": false,
+          "select": null,
+          "datasourceID": "2bbaabec-8603-4edf-9684-08b1b09248ec"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Diners"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T03:51:36.000Z",
+      "updatedAt": "2026-04-16T03:51:36.000Z"
+    },
+    {
+      "id": "ba9450ae-eec6-4545-86bf-9c5027fca7fb",
+      "name": "Reservations",
+      "type": "datacollection",
+      "json": {
+        "id": "ba9450ae-eec6-4545-86bf-9c5027fca7fb",
+        "name": "Reservations",
+        "type": "datacollection",
+        "settings": {
+          "linkDatacollectionID": "",
+          "linkFieldID": "",
+          "followDatacollectionID": "",
+          "objectWorkspace": {
+            "filterConditions": {
+              "glue": "and",
+              "rules": []
+            },
+            "sortFields": []
+          },
+          "loadAll": false,
+          "isQuery": false,
+          "populate": true,
+          "syncType": 1,
+          "skipPack": false,
+          "select": null,
+          "datasourceID": "3c124d56-79a4-4b47-95cd-110780c2cbda"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Reservations"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T03:51:50.000Z",
+      "updatedAt": "2026-04-16T03:51:50.000Z"
+    },
+    {
+      "id": "8ada0456-0cbe-46db-9d3c-84c5793e4108",
+      "name": "Upcoming_Customers",
+      "type": "datacollection",
+      "json": {
+        "id": "8ada0456-0cbe-46db-9d3c-84c5793e4108",
+        "name": "Upcoming_Customers",
+        "type": "datacollection",
+        "settings": {
+          "linkDatacollectionID": "",
+          "linkFieldID": "",
+          "followDatacollectionID": "",
+          "objectWorkspace": {
+            "filterConditions": {
+              "glue": "and",
+              "rules": []
+            },
+            "sortFields": []
+          },
+          "fixSelect": "",
+          "loadAll": 1,
+          "isQuery": true,
+          "populate": true,
+          "syncType": 1,
+          "skipPack": false,
+          "select": null,
+          "datasourceID": "69c2e207-bf41-4e1b-8316-4455c8b2352b"
+        },
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Upcoming_Customers"
+          }
+        ]
+      },
+      "createdAt": "2026-04-16T03:53:44.000Z",
+      "updatedAt": "2026-04-16T03:53:48.000Z"
+    },
+    {
+      "id": "78b7e3ff-2bb7-42de-8af3-257402e8e608",
+      "name": "View",
+      "type": "view",
+      "json": {
+        "id": "78b7e3ff-2bb7-42de-8af3-257402e8e608",
+        "type": "view",
+        "key": "page",
+        "icon": "file",
+        "name": "View",
+        "settings": {
+          "height": 0,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "gravity": [
+            1
+          ]
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View"
+          }
+        ],
+        "viewIDs": [
+          "dab89e2f-d302-4e6e-a997-7c4efbe61562",
+          "cb5d6bc4-6aca-4d81-9178-3e252fe2bc3f"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": true,
+        "myAppID": "ee9e65c7-1a02-4204-91be-4f83e9f7feae",
+        "pageIDs": [
+          "ebea5a4a-8221-4130-830a-fcaa0926e1a7",
+          "3dc3e086-4677-428e-9521-615e51f9f49f",
+          "c80a2985-dca8-41a9-b271-7938b33e7a96"
+        ]
+      },
+      "createdAt": "2026-04-16T03:52:10.000Z",
+      "updatedAt": "2026-04-16T04:05:33.000Z"
+    },
+    {
+      "id": "ebea5a4a-8221-4130-830a-fcaa0926e1a7",
+      "name": "Add Diner",
+      "type": "view",
+      "json": {
+        "id": "ebea5a4a-8221-4130-830a-fcaa0926e1a7",
+        "type": "view",
+        "key": "page",
+        "icon": "clone",
+        "name": "Add Diner",
+        "settings": {
+          "height": 0,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "gravity": [],
+          "type": "popup",
+          "popupWidth": "700",
+          "popupHeight": "450",
+          "pageWidth": "",
+          "fixedPageWidth": 0,
+          "pageBackground": "ab-background-default"
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Diner"
+          }
+        ],
+        "viewIDs": [
+          "57b1408a-c07c-4b25-b9cc-14ff6d37a427"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": false,
+        "myAppID": "ee9e65c7-1a02-4204-91be-4f83e9f7feae",
+        "pageIDs": []
+      },
+      "createdAt": "2026-04-16T03:58:56.000Z",
+      "updatedAt": "2026-04-16T04:00:51.000Z"
+    },
+    {
+      "id": "57b1408a-c07c-4b25-b9cc-14ff6d37a427",
+      "name": "Add Diner.form",
+      "type": "view",
+      "json": {
+        "id": "57b1408a-c07c-4b25-b9cc-14ff6d37a427",
+        "type": "view",
+        "key": "form-url",
+        "icon": "list-alt",
+        "name": "Add Diner.form",
+        "settings": {
+          "height": 200,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "labelPosition": "left",
+          "showLabel": 1,
+          "clearOnLoad": 1,
+          "clearOnSave": 0,
+          "labelWidth": 120,
+          "dataviewID": "c0180217-8589-4460-9985-693c79f1d02b",
+          "gravity": [],
+          "recordRules": [],
+          "submitRules": [
+            {
+              "selectedAction": "ABViewRuleActionFormSubmitRuleClosePopup",
+              "queryRules": {
+                "rules": [],
+                "glue": "and"
+              },
+              "actionSettings": {}
+            }
+          ],
+          "method": "get",
+          "url": ""
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Diner.form"
+          }
+        ],
+        "viewIDs": [
+          "8c9ef600-21ee-4fca-b0f4-68fca42e91db",
+          "de9603af-7d59-4d25-84b2-f1e264005f7b",
+          "6873d74d-373e-4d76-a854-37dfd3e1d2a3"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "x": 0,
+          "y": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:00:50.000Z",
+      "updatedAt": "2026-04-16T04:01:09.000Z"
+    },
+    {
+      "id": "8c9ef600-21ee-4fca-b0f4-68fca42e91db",
+      "name": "Add Diner.form.connect",
+      "type": "view",
+      "json": {
+        "id": "8c9ef600-21ee-4fca-b0f4-68fca42e91db",
+        "type": "view",
+        "key": "connect",
+        "icon": "list-ul",
+        "name": "Add Diner.form.connect",
+        "settings": {
+          "objectId": "2bbaabec-8603-4edf-9684-08b1b09248ec",
+          "fieldId": "e3d2ca98-1fb1-4592-ade1-5afbf7033801",
+          "height": 0,
+          "filterConditions": {
+            "glue": "and",
+            "rules": []
+          }
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Diner.form.connect"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 1,
+          "x": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:00:53.000Z",
+      "updatedAt": "2026-04-16T04:00:55.000Z"
+    },
+    {
+      "id": "de9603af-7d59-4d25-84b2-f1e264005f7b",
+      "name": "Add Diner.form.textbox",
+      "type": "view",
+      "json": {
+        "id": "de9603af-7d59-4d25-84b2-f1e264005f7b",
+        "type": "view",
+        "key": "textbox",
+        "icon": "i-cursor",
+        "name": "Add Diner.form.textbox",
+        "settings": {
+          "type": "single",
+          "objectId": "2bbaabec-8603-4edf-9684-08b1b09248ec",
+          "fieldId": "c9aa703d-0461-4b34-9506-a0a591b5cefd",
+          "height": 0
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Diner.form.textbox"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 0,
+          "x": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:00:53.000Z",
+      "updatedAt": "2026-04-16T04:00:55.000Z"
+    },
+    {
+      "id": "6873d74d-373e-4d76-a854-37dfd3e1d2a3",
+      "name": "Add Diner.form.button",
+      "type": "view",
+      "json": {
+        "id": "6873d74d-373e-4d76-a854-37dfd3e1d2a3",
+        "type": "view",
+        "key": "button",
+        "icon": "square",
+        "name": "Add Diner.form.button",
+        "settings": {
+          "height": 0,
+          "translations": [],
+          "includeSave": true,
+          "includeCancel": false,
+          "includeReset": false,
+          "includeDelete": false,
+          "isDefault": true
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Diner.form.button"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 3,
+          "x": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:00:53.000Z",
+      "updatedAt": "2026-04-16T04:00:55.000Z"
+    },
+    {
+      "id": "3dc3e086-4677-428e-9521-615e51f9f49f",
+      "name": "Add Reservation",
+      "type": "view",
+      "json": {
+        "id": "3dc3e086-4677-428e-9521-615e51f9f49f",
+        "type": "view",
+        "key": "page",
+        "icon": "clone",
+        "name": "Add Reservation",
+        "settings": {
+          "height": 0,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "gravity": [],
+          "type": "popup",
+          "popupWidth": "700",
+          "popupHeight": "450",
+          "pageWidth": "",
+          "fixedPageWidth": 0,
+          "pageBackground": "ab-background-default"
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Reservation"
+          }
+        ],
+        "viewIDs": [
+          "fb7d07c6-0a1a-4771-bf2c-a65da981366d"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": false,
+        "myAppID": "ee9e65c7-1a02-4204-91be-4f83e9f7feae",
+        "pageIDs": []
+      },
+      "createdAt": "2026-04-16T03:59:26.000Z",
+      "updatedAt": "2026-04-16T04:00:45.000Z"
+    },
+    {
+      "id": "fb7d07c6-0a1a-4771-bf2c-a65da981366d",
+      "name": "Add Reservation.form",
+      "type": "view",
+      "json": {
+        "id": "fb7d07c6-0a1a-4771-bf2c-a65da981366d",
+        "type": "view",
+        "key": "form-url",
+        "icon": "list-alt",
+        "name": "Add Reservation.form",
+        "settings": {
+          "height": 200,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "labelPosition": "left",
+          "showLabel": 1,
+          "clearOnLoad": 1,
+          "clearOnSave": 0,
+          "labelWidth": 120,
+          "dataviewID": "ba9450ae-eec6-4545-86bf-9c5027fca7fb",
+          "gravity": [],
+          "recordRules": [],
+          "submitRules": [
+            {
+              "selectedAction": "ABViewRuleActionFormSubmitRuleClosePopup",
+              "queryRules": {
+                "rules": [],
+                "glue": "and"
+              },
+              "actionSettings": {}
+            }
+          ],
+          "method": "get",
+          "url": ""
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Reservation.form"
+          }
+        ],
+        "viewIDs": [
+          "60aa117c-97d4-448f-b7ea-0c23daa17102",
+          "a55b3de3-813c-4961-8060-69e9a596cc60",
+          "7c8cf795-bb45-4c94-bce1-16c9c5ec8619",
+          "799cff5a-a209-4b3e-ad64-e539ece325f7"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "x": 0,
+          "y": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:00:17.000Z",
+      "updatedAt": "2026-04-16T04:00:40.000Z"
+    },
+    {
+      "id": "60aa117c-97d4-448f-b7ea-0c23daa17102",
+      "name": "Add Reservation.form.connect",
+      "type": "view",
+      "json": {
+        "id": "60aa117c-97d4-448f-b7ea-0c23daa17102",
+        "type": "view",
+        "key": "connect",
+        "icon": "list-ul",
+        "name": "Add Reservation.form.connect",
+        "settings": {
+          "objectId": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+          "fieldId": "74e56b90-a678-4f72-833b-b415a02aed69",
+          "height": 0,
+          "filterConditions": {
+            "glue": "and",
+            "rules": []
+          }
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Reservation.form.connect"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 2,
+          "x": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:00:22.000Z",
+      "updatedAt": "2026-04-16T04:00:25.000Z"
+    },
+    {
+      "id": "a55b3de3-813c-4961-8060-69e9a596cc60",
+      "name": "Add Reservation.form.datepicker",
+      "type": "view",
+      "json": {
+        "id": "a55b3de3-813c-4961-8060-69e9a596cc60",
+        "type": "view",
+        "key": "datepicker",
+        "icon": "calendar",
+        "name": "Add Reservation.form.datepicker",
+        "settings": {
+          "objectId": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+          "fieldId": "da1d335f-69f1-4ddb-b415-145622d6eeba",
+          "height": 0
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Reservation.form.datepicker"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 1,
+          "x": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:00:22.000Z",
+      "updatedAt": "2026-04-16T04:00:25.000Z"
+    },
+    {
+      "id": "7c8cf795-bb45-4c94-bce1-16c9c5ec8619",
+      "name": "Add Reservation.form.numberbox",
+      "type": "view",
+      "json": {
+        "id": "7c8cf795-bb45-4c94-bce1-16c9c5ec8619",
+        "type": "view",
+        "key": "numberbox",
+        "icon": "hashtag",
+        "name": "Add Reservation.form.numberbox",
+        "settings": {
+          "objectId": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+          "fieldId": "6bbd5752-5b7c-4642-8aee-0e708098352d",
+          "height": 0,
+          "isStepper": 0
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Reservation.form.numberbox"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 0,
+          "x": 0
+        },
+        "isRoot": false,
+        "views": []
+      },
+      "createdAt": "2026-04-16T04:00:22.000Z",
+      "updatedAt": "2026-04-16T04:00:25.000Z"
+    },
+    {
+      "id": "799cff5a-a209-4b3e-ad64-e539ece325f7",
+      "name": "Add Reservation.form.button",
+      "type": "view",
+      "json": {
+        "id": "799cff5a-a209-4b3e-ad64-e539ece325f7",
+        "type": "view",
+        "key": "button",
+        "icon": "square",
+        "name": "Add Reservation.form.button",
+        "settings": {
+          "height": 0,
+          "translations": [],
+          "includeSave": true,
+          "includeCancel": false,
+          "includeReset": false,
+          "includeDelete": false,
+          "isDefault": true
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Add Reservation.form.button"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 3,
+          "x": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:00:22.000Z",
+      "updatedAt": "2026-04-16T04:00:25.000Z"
+    },
+    {
+      "id": "c80a2985-dca8-41a9-b271-7938b33e7a96",
+      "name": "Edit Reservation",
+      "type": "view",
+      "json": {
+        "id": "c80a2985-dca8-41a9-b271-7938b33e7a96",
+        "type": "view",
+        "key": "page",
+        "icon": "clone",
+        "name": "Edit Reservation",
+        "settings": {
+          "height": 0,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "gravity": [],
+          "type": "popup",
+          "popupWidth": "700",
+          "popupHeight": "450",
+          "pageWidth": "",
+          "fixedPageWidth": 0,
+          "pageBackground": "ab-background-default"
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Reservation"
+          }
+        ],
+        "viewIDs": [
+          "27f4695b-baef-4de1-bfad-ed7c9df5b406"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": false,
+        "myAppID": "ee9e65c7-1a02-4204-91be-4f83e9f7feae",
+        "pageIDs": []
+      },
+      "createdAt": "2026-04-16T04:03:02.000Z",
+      "updatedAt": "2026-04-16T04:03:10.000Z"
+    },
+    {
+      "id": "27f4695b-baef-4de1-bfad-ed7c9df5b406",
+      "name": "Edit Reservation.form",
+      "type": "view",
+      "json": {
+        "id": "27f4695b-baef-4de1-bfad-ed7c9df5b406",
+        "type": "view",
+        "key": "form-url",
+        "icon": "list-alt",
+        "name": "Edit Reservation.form",
+        "settings": {
+          "height": 200,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "labelPosition": "left",
+          "showLabel": 1,
+          "clearOnLoad": 0,
+          "clearOnSave": 0,
+          "labelWidth": 120,
+          "dataviewID": "ba9450ae-eec6-4545-86bf-9c5027fca7fb",
+          "gravity": [],
+          "recordRules": [],
+          "submitRules": [
+            {
+              "selectedAction": "ABViewRuleActionFormSubmitRuleClosePopup",
+              "queryRules": {
+                "rules": [],
+                "glue": "and"
+              },
+              "actionSettings": {}
+            }
+          ],
+          "method": "get",
+          "url": ""
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Reservation.form"
+          }
+        ],
+        "viewIDs": [
+          "05d71ab1-9f63-4995-a3b5-24b822339946",
+          "2dd1953b-a706-4460-ae59-01b1c529c219",
+          "153b99c3-1134-4eb4-a09e-17a409c080a8",
+          "eda7e151-42b0-4268-8cd1-1b46e21870cf"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "x": 0,
+          "y": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:03:10.000Z",
+      "updatedAt": "2026-04-16T04:03:26.000Z"
+    },
+    {
+      "id": "05d71ab1-9f63-4995-a3b5-24b822339946",
+      "name": "Edit Reservation.form.connect",
+      "type": "view",
+      "json": {
+        "id": "05d71ab1-9f63-4995-a3b5-24b822339946",
+        "type": "view",
+        "key": "connect",
+        "icon": "list-ul",
+        "name": "Edit Reservation.form.connect",
+        "settings": {
+          "objectId": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+          "fieldId": "74e56b90-a678-4f72-833b-b415a02aed69",
+          "height": 0,
+          "filterConditions": {
+            "glue": "and",
+            "rules": []
+          }
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Reservation.form.connect"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 2,
+          "x": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:03:13.000Z",
+      "updatedAt": "2026-04-16T04:03:16.000Z"
+    },
+    {
+      "id": "2dd1953b-a706-4460-ae59-01b1c529c219",
+      "name": "Edit Reservation.form.datepicker",
+      "type": "view",
+      "json": {
+        "id": "2dd1953b-a706-4460-ae59-01b1c529c219",
+        "type": "view",
+        "key": "datepicker",
+        "icon": "calendar",
+        "name": "Edit Reservation.form.datepicker",
+        "settings": {
+          "objectId": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+          "fieldId": "da1d335f-69f1-4ddb-b415-145622d6eeba",
+          "height": 0
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Reservation.form.datepicker"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 1,
+          "x": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:03:13.000Z",
+      "updatedAt": "2026-04-16T04:03:16.000Z"
+    },
+    {
+      "id": "153b99c3-1134-4eb4-a09e-17a409c080a8",
+      "name": "Edit Reservation.form.numberbox",
+      "type": "view",
+      "json": {
+        "id": "153b99c3-1134-4eb4-a09e-17a409c080a8",
+        "type": "view",
+        "key": "numberbox",
+        "icon": "hashtag",
+        "name": "Edit Reservation.form.numberbox",
+        "settings": {
+          "objectId": "3c124d56-79a4-4b47-95cd-110780c2cbda",
+          "fieldId": "6bbd5752-5b7c-4642-8aee-0e708098352d",
+          "height": 0,
+          "isStepper": 0
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Reservation.form.numberbox"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 0,
+          "x": 0
+        },
+        "isRoot": false,
+        "views": []
+      },
+      "createdAt": "2026-04-16T04:03:13.000Z",
+      "updatedAt": "2026-04-16T04:03:16.000Z"
+    },
+    {
+      "id": "eda7e151-42b0-4268-8cd1-1b46e21870cf",
+      "name": "Edit Reservation.form.button",
+      "type": "view",
+      "json": {
+        "id": "eda7e151-42b0-4268-8cd1-1b46e21870cf",
+        "type": "view",
+        "key": "button",
+        "icon": "square",
+        "name": "Edit Reservation.form.button",
+        "settings": {
+          "height": 0,
+          "translations": [],
+          "includeSave": true,
+          "includeCancel": false,
+          "includeReset": false,
+          "includeDelete": false,
+          "isDefault": true
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Edit Reservation.form.button"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "y": 3,
+          "x": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:03:13.000Z",
+      "updatedAt": "2026-04-16T04:03:16.000Z"
+    },
+    {
+      "id": "dab89e2f-d302-4e6e-a997-7c4efbe61562",
+      "name": "View.grid",
+      "type": "view",
+      "json": {
+        "id": "dab89e2f-d302-4e6e-a997-7c4efbe61562",
+        "type": "view",
+        "key": "grid",
+        "icon": "table",
+        "name": "View.grid",
+        "settings": {
+          "height": 0,
+          "columnSpan": 1,
+          "rowSpan": 1,
+          "dataviewID": "ba9450ae-eec6-4545-86bf-9c5027fca7fb",
+          "gridFilter": {
+            "filterOption": 0,
+            "queryRules": [],
+            "isGlobalToolbar": 0
+          },
+          "detailsPage": "",
+          "editPage": "",
+          "detailsTab": "",
+          "editTab": "",
+          "frozenColumnID": "",
+          "hiddenFields": [],
+          "summaryColumns": [],
+          "countColumns": [],
+          "isEditable": 0,
+          "massUpdate": 0,
+          "allowDelete": 1,
+          "isSortable": 1,
+          "isExportable": 0,
+          "showToolbar": 1,
+          "hideHeader": 0,
+          "labelAsField": 0,
+          "hideButtons": 0,
+          "groupBy": ""
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View.grid"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "x": 0,
+          "y": 1
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T03:52:14.000Z",
+      "updatedAt": "2026-04-16T04:05:33.000Z"
+    },
+    {
+      "id": "cb5d6bc4-6aca-4d81-9178-3e252fe2bc3f",
+      "name": "View.menu",
+      "type": "view",
+      "json": {
+        "id": "cb5d6bc4-6aca-4d81-9178-3e252fe2bc3f",
+        "type": "view",
+        "key": "menu",
+        "icon": "th-large",
+        "name": "View.menu",
+        "settings": {
+          "height": 0,
+          "columnSpan": 1,
+          "rowSpan": 1,
+          "pages": [],
+          "orientation": "x",
+          "buttonStyle": "ab-menu-default",
+          "menuAlignment": "ab-menu-right",
+          "menuInToolbar": 0,
+          "menuPadding": 10,
+          "menuTheme": "bg_gray",
+          "menuPosition": "left",
+          "order": [
+            {
+              "parent": 0,
+              "position": 0,
+              "icon": "plus-square",
+              "type": "page",
+              "pageId": "ebea5a4a-8221-4130-830a-fcaa0926e1a7",
+              "isChecked": "true",
+              "translations": [
+                {
+                  "language_code": "en",
+                  "label": "Add Diner",
+                  "aliasname": "Add Diner"
+                }
+              ]
+            },
+            {
+              "parent": 0,
+              "position": 1,
+              "icon": "beer",
+              "type": "page",
+              "pageId": "3dc3e086-4677-428e-9521-615e51f9f49f",
+              "isChecked": "true",
+              "translations": [
+                {
+                  "language_code": "en",
+                  "label": "Add Reservation"
+                }
+              ]
+            }
+          ]
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "View.menu",
+            "menuTextLeft": "",
+            "menuTextCenter": "",
+            "menuTextRight": ""
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "x": 0,
+          "y": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T03:52:28.000Z",
+      "updatedAt": "2026-04-16T04:05:33.000Z"
+    },
+    {
+      "id": "14d0d671-8ae3-456d-b10f-8f52a5f4c27c",
+      "name": "Report",
+      "type": "view",
+      "json": {
+        "id": "14d0d671-8ae3-456d-b10f-8f52a5f4c27c",
+        "type": "view",
+        "key": "page",
+        "icon": "file",
+        "name": "Report",
+        "settings": {
+          "height": 0,
+          "columns": 1,
+          "removable": true,
+          "movable": true,
+          "gravity": [
+            1
+          ]
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Report"
+          }
+        ],
+        "viewIDs": [
+          "48b6854c-e049-4588-855e-216fd053a97d"
+        ],
+        "position": {
+          "dx": 1,
+          "dy": 1
+        },
+        "isRoot": true,
+        "myAppID": "ee9e65c7-1a02-4204-91be-4f83e9f7feae",
+        "pageIDs": []
+      },
+      "createdAt": "2026-04-16T04:04:50.000Z",
+      "updatedAt": "2026-04-16T04:04:55.000Z"
+    },
+    {
+      "id": "48b6854c-e049-4588-855e-216fd053a97d",
+      "name": "Report.grid",
+      "type": "view",
+      "json": {
+        "id": "48b6854c-e049-4588-855e-216fd053a97d",
+        "type": "view",
+        "key": "grid",
+        "icon": "table",
+        "name": "Report.grid",
+        "settings": {
+          "height": 0,
+          "columnSpan": 1,
+          "rowSpan": 1,
+          "dataviewID": "8ada0456-0cbe-46db-9d3c-84c5793e4108",
+          "gridFilter": {
+            "filterOption": 0,
+            "queryRules": [],
+            "isGlobalToolbar": 0
+          },
+          "detailsPage": "",
+          "editPage": "",
+          "detailsTab": "",
+          "editTab": "",
+          "frozenColumnID": "",
+          "hiddenFields": [],
+          "summaryColumns": [],
+          "countColumns": [],
+          "isEditable": 0,
+          "massUpdate": 0,
+          "allowDelete": 0,
+          "isSortable": 0,
+          "isExportable": 1,
+          "showToolbar": 1,
+          "hideHeader": 0,
+          "labelAsField": 0,
+          "hideButtons": 0,
+          "groupBy": ""
+        },
+        "accessLevels": {},
+        "translations": [
+          {
+            "language_code": "en",
+            "label": "Report.grid"
+          }
+        ],
+        "viewIDs": [],
+        "position": {
+          "dx": 1,
+          "dy": 1,
+          "x": 0,
+          "y": 0
+        },
+        "isRoot": false
+      },
+      "createdAt": "2026-04-16T04:04:55.000Z",
+      "updatedAt": "2026-04-16T04:05:04.000Z"
+    }
+  ],
+  "files": {},
+  "siteObjectConnections": {},
+  "roles": []
+}

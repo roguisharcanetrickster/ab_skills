@@ -1,6 +1,7 @@
 // eslint-disable-next-line prettier/prettier
 const testCases = [
    require("./test_cases/001_portal_auth_login.js"),
+   require("./test_cases/002_bible_study_group_app.js"),
 ];
 
 // Don't stop tests on uncaught errors
@@ -33,6 +34,7 @@ describe("Tests", () => {
             "reset_db.sql",
             "init_db_permissions.sql",
             "init_db_default.sql",
+            "init_db_bibleStudyGroup.sql",
          ]);
       }
       initialLoad();
